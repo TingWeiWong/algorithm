@@ -1,9 +1,19 @@
 """
 Input = a list 
 Output = integer 
-ex. [5,7,4,-3,9,1,10,4,5,8,9,3] >>  6
+ex. input = [5,7,4,-3,9,1,10,4,5,8,9,3] >>  6
+	lis   = [1,2,1, 1,3,2,4 ,3,4,5,6,3]
+
 Complexity = O(n^2)
 """
+def lis_recursive(x):
+	n = len(x)
+	if n == 1:
+		return 1
+	else:
+		for i in range(n):
+			if 
+
 
 
 def LIS(x):
