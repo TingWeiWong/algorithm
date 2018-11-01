@@ -13,11 +13,21 @@ int lcs_recursive(char *x,char *y,int m,int n){
 	}
 
 }
+
+int lcs_dynamic(char x,char y){
+	return 0;
+}
+
+
+
+
 int main(){
 	char x[] = "AGGTAB";
 	char y[] = "GXTXAYB";
 	int m = 6 ;
 	int n = 7 ;
+	int test[5] = {};
 	cout << "LCS = " << lcs_recursive(x,y,m,n)<<endl;
+	cout << test;
 	return 0;
 }
