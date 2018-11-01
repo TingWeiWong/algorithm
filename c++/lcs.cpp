@@ -19,6 +19,5 @@ int main(){
 	int m = 6 ;
 	int n = 7 ;
 	cout << "LCS = " << lcs_recursive(x,y,m,n)<<endl;
-	system( "read -n 1 -s -p \"Press any key to continue...\"" ); 
 	return 0;
 }
