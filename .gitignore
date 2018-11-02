@@ -59,3 +59,6 @@ relative/path/to/dir/anotherfile
 *.exe
 *.out
 *.app
+
+# DS_Store
+.DS_Store

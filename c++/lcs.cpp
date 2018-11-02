@@ -14,7 +14,10 @@ int lcs_recursive(char *x,char *y,int m,int n){
 
 }
 
-int lcs_dynamic(char x,char y){
+int lcs_dynamic(char *x,char *y){
+	int m = strlen(x);
+	int n = strlen(y);
+	int aux_matrix = array[m+1][n+1]
 	
 	return 0;
 }
