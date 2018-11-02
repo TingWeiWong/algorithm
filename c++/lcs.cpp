@@ -15,6 +15,7 @@ int lcs_recursive(char *x,char *y,int m,int n){
 }
 
 int lcs_dynamic(char x,char y){
+	
 	return 0;
 }
 
