@@ -8,7 +8,7 @@
 
 #include <iostream>
 using namespace std;
-int lcs_recursive(char *x,char *y,int m, int n){
+int lcs_recursive(char x,char y,int m, int n){
     if (m==0 or n==0){
         return 0;
     }
@@ -26,9 +26,15 @@ int main(int argc, const char * argv[]) {
     char y;
     int m ;
     int n ;
-    cout <<"Enter values "<<endl;
-    cin >> x,y,m,n;
-    cout << "LCS recursive = " << lcs_recursive(&x, &y, m, n);
+    cout <<"Enter values for X "<<endl;
+    cin >> x;
+    cout <<"Enter values for Y "<<endl;
+    cin >> y;
+    cout <<"Enter values for m "<<endl;
+    cin >> m;
+    cout <<"Enter values for n "<<endl;
+    cin >> n;
+    cout << "LCS recursive = " << lcs_recursive(x, y, m, n);
     return 0;
 }
 

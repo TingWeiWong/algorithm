@@ -62,3 +62,7 @@ relative/path/to/dir/anotherfile
 
 # DS_Store
 .DS_Store
+
+# Xcuserdata
+*.xcuserdata
+
