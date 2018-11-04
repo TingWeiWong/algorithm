@@ -8,6 +8,7 @@
 
 #include <iostream>
 using namespace std;
+void swap_without_pointer(int m = 18 , int n = 30);
 int lcs_recursive(char *x,char *y,int m, int n){
     if (m==0 or n==0){
         return 0;
@@ -20,15 +21,15 @@ int lcs_recursive(char *x,char *y,int m, int n){
     }
     
 }
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    char x;
-    char y;
-    int m ;
-    int n ;
-    cout <<"Enter values "<<endl;
-    cin >> x,y,m,n;
-    cout << "LCS recursive = " << lcs_recursive(&x, &y, m, n);
+int main() {
+    int x = 17;
+    int y = 35;
+    swap_without_pointer(x, y);
+    cout << x << "," << y <<endl;
     return 0;
 }
-
+void swap_without_pointer(int m, int n){
+    int temp = m;
+    m = n;
+    n = temp;
+}
