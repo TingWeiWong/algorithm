@@ -8,7 +8,12 @@
 
 #include <iostream>
 using namespace std;
+<<<<<<< HEAD
+void swap_without_pointer(int m = 18 , int n = 30);
+int lcs_recursive(char *x,char *y,int m, int n){
+=======
 int lcs_recursive(char x,char y,int m, int n){
+>>>>>>> 1b7fb9474a7a2598c65410d8e9ed412aac881d03
     if (m==0 or n==0){
         return 0;
     }
@@ -20,6 +25,13 @@ int lcs_recursive(char x,char y,int m, int n){
     }
     
 }
+<<<<<<< HEAD
+int main() {
+    int x = 17;
+    int y = 35;
+    swap_without_pointer(x, y);
+    cout << x << "," << y <<endl;
+=======
 int main(int argc, const char * argv[]) {
     // insert code here...
     char x;
@@ -35,6 +47,11 @@ int main(int argc, const char * argv[]) {
     cout <<"Enter values for n "<<endl;
     cin >> n;
     cout << "LCS recursive = " << lcs_recursive(x, y, m, n);
+>>>>>>> 1b7fb9474a7a2598c65410d8e9ed412aac881d03
     return 0;
 }
-
+void swap_without_pointer(int m, int n){
+    int temp = m;
+    m = n;
+    n = temp;
+}
