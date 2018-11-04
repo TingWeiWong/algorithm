@@ -66,6 +66,4 @@ relative/path/to/dir/anotherfile
 # Xcuserdata
 *.xcuserdata
 *.xcuserstate
-project.xcworkspace/
-xcuserdata/
 
