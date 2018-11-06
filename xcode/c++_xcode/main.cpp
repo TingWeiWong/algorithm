@@ -7,9 +7,10 @@
 //
 
 #include <iostream>
+#include <string>
 using namespace std;
 void swap_without_pointer(int m = 18 , int n = 30);
-int lcs_recursive(char x,char y,int m, int n){
+int lcs_recursive(char *x,char *y,int m, int n){
     if (m==0 or n==0){
         return 0;
     }
@@ -25,6 +26,10 @@ int main() {
     int x = 17;
     int y = 35;
     swap_without_pointer(x, y);
+    cout << lcs_recursive("ABCDEFG", "ADKBDUCKDE", 7, 10) <<endl;
+    string s = "Hello";
+    s+="ty";
+    cout << s << endl;
     cout << x << "," << y <<endl;
 }
 void swap_without_pointer(int m, int n){
