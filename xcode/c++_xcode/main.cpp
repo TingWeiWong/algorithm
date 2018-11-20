@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <string>
+#include <fstream>
 using namespace std;
 void swap_without_pointer(int m = 18 , int n = 30);
 int lcs_recursive(char *x,char *y,int m, int n){
@@ -31,6 +32,9 @@ int main() {
     s+="ty";
     cout << s << endl;
     cout << x << "," << y <<endl;
+    string l = "Hi";
+    l += 48;
+    cout << "l = " << l << endl;
 }
 void swap_without_pointer(int m, int n){
     int temp = m;

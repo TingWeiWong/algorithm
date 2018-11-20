@@ -5,6 +5,7 @@ def check_fermat(a,p):
 		return True
 	return False
 def fermats(a,p):
+	
 	return None
 def regular_mod(x,m):
 	return x % m
