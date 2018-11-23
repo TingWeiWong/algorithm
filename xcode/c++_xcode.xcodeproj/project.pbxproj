@@ -27,6 +27,7 @@
 		49882EA321A4431400BFE27D /* fstream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fstream.cpp; sourceTree = "<group>"; };
 		49CC5402218C48A300BD06BD /* c++_xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "c++_xcode"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CC5405218C48A300BD06BD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		49DB168021A7D49B005A4CBF /* fstram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fstram.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 			children = (
 				49CC5405218C48A300BD06BD /* main.cpp */,
 				49882EA321A4431400BFE27D /* fstream.cpp */,
+				49DB168021A7D49B005A4CBF /* fstram.h */,
 			);
 			path = "c++_xcode";
 			sourceTree = "<group>";
