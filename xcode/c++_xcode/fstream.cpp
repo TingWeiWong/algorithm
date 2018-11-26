@@ -5,10 +5,9 @@
 //  Created by Andrew  on 11/20/18.
 //  Copyright © 2018 Andrew . All rights reserved.
 //
-#include <iostream>
 #include <stdio.h>
 #include <fstream>
-#include <string>
+#include<iostream>
 using namespace std;
 void test(){
 ifstream input;

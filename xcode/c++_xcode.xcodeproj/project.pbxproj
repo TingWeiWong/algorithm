@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490D057621AB97F200E58921 /* recursions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 490D057421AB97F200E58921 /* recursions.cpp */; };
 		49882EA421A4431400BFE27D /* fstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49882EA321A4431400BFE27D /* fstream.cpp */; };
 		49CC5406218C48A300BD06BD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49CC5405218C48A300BD06BD /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		490D057421AB97F200E58921 /* recursions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = recursions.cpp; sourceTree = "<group>"; };
+		490D057521AB97F200E58921 /* recursions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = recursions.hpp; sourceTree = "<group>"; };
 		49882EA321A4431400BFE27D /* fstream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fstream.cpp; sourceTree = "<group>"; };
 		49CC5402218C48A300BD06BD /* c++_xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "c++_xcode"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CC5405218C48A300BD06BD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				49CC5405218C48A300BD06BD /* main.cpp */,
 				49882EA321A4431400BFE27D /* fstream.cpp */,
 				49DB168021A7D49B005A4CBF /* fstram.h */,
+				490D057421AB97F200E58921 /* recursions.cpp */,
+				490D057521AB97F200E58921 /* recursions.hpp */,
 			);
 			path = "c++_xcode";
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490D057621AB97F200E58921 /* recursions.cpp in Sources */,
 				49882EA421A4431400BFE27D /* fstream.cpp in Sources */,
 				49CC5406218C48A300BD06BD /* main.cpp in Sources */,
 			);
@@ -247,6 +253,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3LYHADJ6H3;
+				GCC_NO_COMMON_BLOCKS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -256,6 +263,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3LYHADJ6H3;
+				GCC_NO_COMMON_BLOCKS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

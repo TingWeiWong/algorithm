@@ -8,36 +8,13 @@
 
 #include <iostream>
 #include <string>
-#include <fstream>
+#include "recursions.hpp"
 using namespace std;
-void swap_without_pointer(int m = 18 , int n = 30);
-int lcs_recursive(char *x,char *y,int m, int n){
-    if (m==0 or n==0){
-        return 0;
-    }
-    else if (x[m] ==y[n]){
-        return lcs_recursive(x, y, m-1, n-1)+1;
-    }
-    else{
-        return max(lcs_recursive(x, y, m-1, n),lcs_recursive(x, y, m, n-1));
-    }
-    
-}
 int main() {
-    int x = 17;
-    int y = 35;
-    swap_without_pointer(x, y);
+    int lcs_recursive(char *x, char *y, int m,int n);
+    bool is_palindrome(string s);
+    int fib_recursive(int n);
     cout << lcs_recursive("ABCDEFG", "ADKBDUCKDE", 7, 10) <<endl;
-    string s = "Hello";
-    s+="ty";
-    cout << s << endl;
-    cout << x << "," << y <<endl;
-    string l = "Hi";
-    l += 48;
-    cout << "l = " << l << endl;
-}
-void swap_without_pointer(int m, int n){
-    int temp = m;
-    m = n;
-    n = temp;
+    cout << "Return 1 if true and 0 otherwise --> " << is_palindrome("AwegCA") << endl;
+    cout << "Fibonacci recursive = " << fib_recursive(10) <<endl;
 }
