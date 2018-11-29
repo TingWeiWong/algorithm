@@ -68,20 +68,34 @@ int evaluate(const string& exp){
      "1+1" --> 2
      "1+(2*4)" --> 9
      */
+    int evaluate_helper(const string& exp,int& index);
+    int index = 0;
     
-    return 0;
+    
+    return evaluate_helper(exp, index);
 }
 int evaluate_helper(const string& exp,int& index){
+    cout << "Eval helper exp = " << exp << "Index = " << index <<endl ;
     if (isdigit(exp[index])){
         // base case
-        int result = exp[index] - '0';
-        index ++;
-        return result;
-    }else if (exp[index] == '('){
+        return  exp[index++] - '0';
+
+    }else{
         index++; //skip
         // operand
+        int left = evaluate_helper(exp, index);
         // operator
+        char op = exp[index++];
         //operand
+        int right = evaluate_helper(exp, index);
+        index ++ ; //skip parant.
+        
+        if (op =='+'){
+            return left+right;
+        }
+        else {
+            return left*right;
+        }
         
     }
     return 0;
