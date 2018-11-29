@@ -39,6 +39,7 @@ bool is_palindrome(string s){
         return true;
     }
     else{
+        // recursive case for palindromes 
         char first = s[0];
         char last = s[s.length()-1];
         if (first == last){
@@ -59,4 +60,29 @@ int fib_recursive(int n){
     else{
         return fib_recursive(n-1)+fib_recursive(n-2);
     }
+}
+
+int evaluate(const string& exp){
+    /* Example
+     "7" --> 7
+     "1+1" --> 2
+     "1+(2*4)" --> 9
+     */
+    
+    return 0;
+}
+int evaluate_helper(const string& exp,int& index){
+    if (isdigit(exp[index])){
+        // base case
+        int result = exp[index] - '0';
+        index ++;
+        return result;
+    }else if (exp[index] == '('){
+        index++; //skip
+        // operand
+        // operator
+        //operand
+        
+    }
+    return 0;
 }
