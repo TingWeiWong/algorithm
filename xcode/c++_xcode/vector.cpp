@@ -13,9 +13,28 @@
 using namespace std;
 
 void print_names(){
-    int a = 3;
     vector <string> names {"Ed","Andy","Jason"};
     for (int i=0;i< names.size();i++){
         cout << names[i] << endl;
     }
 }
+
+void print_names2(){
+    vector<string> names {"A","B","C"};
+    for (string& name:names){
+        name += "!";
+    }
+}
+
+void removeAll(vector<string>& v,string s){
+    /*
+     Example remove all "b" from {"a","b","c","b","b","a","b"}
+     yields {"a","c","a"}
+     */
+    for (int i=0;i<v.size();i++){
+        if (v[i] == s){
+            v.push_back(i)
+        }
+    }
+}
+
