@@ -33,7 +33,7 @@ void removeAll(vector<string>& v,string s){
      */
     for (int i=0;i<v.size();i++){
         if (v[i] == s){
-            v.push_back(i)
+            v.erase(v.begin()+i-1);
         }
     }
 }
