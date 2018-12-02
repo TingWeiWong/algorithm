@@ -23,6 +23,5 @@ int main() {
     cout << "Fibonacci recursive = " << fib_recursive(10) <<endl;
     print_names();
     print_names2();
-    removeAll();
     
 }
