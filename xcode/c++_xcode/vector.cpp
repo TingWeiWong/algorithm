@@ -31,9 +31,9 @@ void removeAll(vector<string>& v,string s){
      Example remove all "b" from {"a","b","c","b","b","a","b"}
      yields {"a","c","a"}
      */
-    for (int i=0;i<v.size();i++){
+    for (int i = v.size()-1; i >= 0;i--){
         if (v[i] == s){
-            v.push_back(i)
+            v.erase(v[i]);
         }
     }
 }
