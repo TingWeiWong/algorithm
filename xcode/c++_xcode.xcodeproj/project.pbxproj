@@ -12,6 +12,7 @@
 		496CE86921AD2C7A005A9F41 /* dynamic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 496CE86721AD2C7A005A9F41 /* dynamic.cpp */; };
 		49882EA421A4431400BFE27D /* fstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49882EA321A4431400BFE27D /* fstream.cpp */; };
 		49CC5406218C48A300BD06BD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49CC5405218C48A300BD06BD /* main.cpp */; };
+		49E3762021B3E69700F67280 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49E3761E21B3E69700F67280 /* graph.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		49CC5402218C48A300BD06BD /* c++_xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "c++_xcode"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CC5405218C48A300BD06BD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		49DB168021A7D49B005A4CBF /* fstram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fstram.h; sourceTree = "<group>"; };
+		49E3761E21B3E69700F67280 /* graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = graph.cpp; sourceTree = "<group>"; };
+		49E3761F21B3E69700F67280 /* graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = graph.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				49CC5405218C48A300BD06BD /* main.cpp */,
+				49E3761E21B3E69700F67280 /* graph.cpp */,
+				49E3761F21B3E69700F67280 /* graph.hpp */,
 				49882EA321A4431400BFE27D /* fstream.cpp */,
 				49DB168021A7D49B005A4CBF /* fstram.h */,
 				4944996E21B0C14200E3114C /* vector.cpp */,
@@ -138,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E3762021B3E69700F67280 /* graph.cpp in Sources */,
 				490D057621AB97F200E58921 /* recursions.cpp in Sources */,
 				496CE86921AD2C7A005A9F41 /* dynamic.cpp in Sources */,
 				49882EA421A4431400BFE27D /* fstream.cpp in Sources */,
