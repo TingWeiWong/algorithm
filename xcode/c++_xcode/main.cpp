@@ -14,6 +14,7 @@ using namespace std;
 int main() {
     void print_names();
     void print_names2();
+    void removeAll();
     int lcs_recursive(char *x, char *y, int m,int n);
     bool is_palindrome(string s);
     int fib_recursive(int n);
@@ -22,4 +23,6 @@ int main() {
     cout << "Fibonacci recursive = " << fib_recursive(10) <<endl;
     print_names();
     print_names2();
+    removeAll();
+    
 }
