@@ -18,6 +18,18 @@ int checkBalance(string code){
      return length of the string if not
      */
     stack<char> parens;
-    
-    return 0;
+    for (int i = 0; i < code.length(); i++){
+        if (code[i] == '(' || code[i] == '{'){
+            parens.push(code[i]);
+        }else if (code[i] == ')' || code[i] == '}'){
+            if (parens.empty()){
+                return i;
+            }
+            char top = parens.pop();
+            if (top != '}'){
+                return i;
+        }
+    }
+    return -1;
+}
 }
