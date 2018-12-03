@@ -21,15 +21,17 @@ int main() {
     int lcs_recursive(char *x, char *y, int m,int n);
     bool is_palindrome(string s);
     int fib_recursive(int n);
-    queue<string> queue;
-    queue.push("s");
-    queue.push("a");
-    cout << &queue ;
-    cout << lcs_recursive("ABCDEFG", "ADKBDUCKDE", 7, 10) <<endl;
-    cout << "Return 1 if true and 0 otherwise --> " << is_palindrome("AwegCA") << endl;
-    cout << "Fibonacci recursive = " << fib_recursive(10) <<endl;
-    print_names();
-    print_names2();
-    cout << "The string passed is balanced if returning -1 but  " << checkBalance("(1+2") << endl;
-    mirror(queue);
+    int lcs_dynamic(string x,string y);
+//    queue<string> queue;
+//    queue.push("s");
+//    queue.push("a");
+//    cout << &queue ;
+//    cout << lcs_recursive("ABCDEFG", "ADKBDUCKDE", 7, 10) <<endl;
+//    cout << "Return 1 if true and 0 otherwise --> " << is_palindrome("AwegCA") << endl;
+//    cout << "Fibonacci recursive = " << fib_recursive(10) <<endl;
+//    print_names();
+//    print_names2();
+//    cout << "The string passed is balanced if returning -1 but  " << checkBalance("(1+2") << endl;
+//    mirror(queue);
+    cout << "LCS dynamic = " << lcs_dynamic("abcs", "iasc") << endl;
 }
