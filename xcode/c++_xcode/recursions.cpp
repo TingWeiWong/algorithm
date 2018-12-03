@@ -6,6 +6,7 @@
 //  Copyright © 2018 Andrew . All rights reserved.
 //
 #include <iostream>
+#include <vector>
 #include "recursions.hpp"
 using namespace std;
 /*
@@ -31,6 +32,10 @@ int lcs_recursive(char *x, char *y, int m, int n){
     else{
         return max(lcs_recursive(x, y, m, n-1),lcs_recursive(x, y, m-1,     n));
     }
+}
+
+int lis_recursive(vector<int> l){
+    return 0;
 }
 
 bool is_palindrome(string s){
