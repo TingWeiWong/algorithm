@@ -9,4 +9,15 @@
 #include "stacks.hpp"
 #include <iostream>
 #include <string>
+#include <stack>
 using namespace std;
+
+int checkBalance(string code){
+    /*
+     return -1 if all parentheses are closed ( ) { }
+     return length of the string if not
+     */
+    stack<char> parens;
+    
+    return 0;
+}
