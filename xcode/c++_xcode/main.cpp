@@ -22,6 +22,7 @@ int main() {
     bool is_palindrome(string s);
     int fib_recursive(int n);
     int lcs_dynamic(string x,string y);
+    int lis_dynamic(vector<int> l);
 //    queue<string> queue;
 //    queue.push("s");
 //    queue.push("a");
@@ -34,4 +35,5 @@ int main() {
 //    cout << "The string passed is balanced if returning -1 but  " << checkBalance("(1+2") << endl;
 //    mirror(queue);
     cout << "LCS dynamic = " << lcs_dynamic("abcs", "iasc") << endl;
+    cout << "LIS dynamic = " << lis_dynamic({1,2,3,4,1,2,5,1,2,4}) << endl;
 }
