@@ -80,9 +80,9 @@
 			children = (
 				49CC5405218C48A300BD06BD /* main.cpp */,
 				49C22B0121B4D25A00612BA3 /* stacks.cpp */,
+				49C22B0221B4D25A00612BA3 /* stacks.hpp */,
 				49D14FAB21B4F6F200B77C3F /* queue.cpp */,
 				49D14FAC21B4F6F200B77C3F /* queue.hpp */,
-				49C22B0221B4D25A00612BA3 /* stacks.hpp */,
 				49E3761E21B3E69700F67280 /* graph.cpp */,
 				49E3761F21B3E69700F67280 /* graph.hpp */,
 				49882EA321A4431400BFE27D /* fstream.cpp */,
