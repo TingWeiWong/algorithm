@@ -37,7 +37,7 @@ int checkBalance(string code){
         return -1;
     }
     else{
-        return code.length();
+        return int(code.length());
     }
 }
 
