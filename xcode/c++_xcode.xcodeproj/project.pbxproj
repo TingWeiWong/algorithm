@@ -11,6 +11,7 @@
 		4944997021B0C14200E3114C /* vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4944996E21B0C14200E3114C /* vector.cpp */; };
 		496CE86921AD2C7A005A9F41 /* dynamic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 496CE86721AD2C7A005A9F41 /* dynamic.cpp */; };
 		49882EA421A4431400BFE27D /* fstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49882EA321A4431400BFE27D /* fstream.cpp */; };
+		49C22B0321B4D25A00612BA3 /* stacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49C22B0121B4D25A00612BA3 /* stacks.cpp */; };
 		49CC5406218C48A300BD06BD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49CC5405218C48A300BD06BD /* main.cpp */; };
 		49E3762021B3E69700F67280 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49E3761E21B3E69700F67280 /* graph.cpp */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,8 @@
 		496CE86721AD2C7A005A9F41 /* dynamic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dynamic.cpp; sourceTree = "<group>"; };
 		496CE86821AD2C7A005A9F41 /* dynamic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dynamic.hpp; sourceTree = "<group>"; };
 		49882EA321A4431400BFE27D /* fstream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fstream.cpp; sourceTree = "<group>"; };
+		49C22B0121B4D25A00612BA3 /* stacks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stacks.cpp; sourceTree = "<group>"; };
+		49C22B0221B4D25A00612BA3 /* stacks.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stacks.hpp; sourceTree = "<group>"; };
 		49CC5402218C48A300BD06BD /* c++_xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "c++_xcode"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49CC5405218C48A300BD06BD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		49DB168021A7D49B005A4CBF /* fstram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fstram.h; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				49CC5405218C48A300BD06BD /* main.cpp */,
+				49C22B0121B4D25A00612BA3 /* stacks.cpp */,
+				49C22B0221B4D25A00612BA3 /* stacks.hpp */,
 				49E3761E21B3E69700F67280 /* graph.cpp */,
 				49E3761F21B3E69700F67280 /* graph.hpp */,
 				49882EA321A4431400BFE27D /* fstream.cpp */,
@@ -146,6 +151,7 @@
 				49E3762021B3E69700F67280 /* graph.cpp in Sources */,
 				490D057621AB97F200E58921 /* recursions.cpp in Sources */,
 				496CE86921AD2C7A005A9F41 /* dynamic.cpp in Sources */,
+				49C22B0321B4D25A00612BA3 /* stacks.cpp in Sources */,
 				49882EA421A4431400BFE27D /* fstream.cpp in Sources */,
 				49CC5406218C48A300BD06BD /* main.cpp in Sources */,
 				4944997021B0C14200E3114C /* vector.cpp in Sources */,
