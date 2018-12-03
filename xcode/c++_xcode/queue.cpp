@@ -26,5 +26,5 @@ void mirror(queue<string>& queue){
         queue.push(stack.top());
         stack.pop();
     }
-    
+    cout <<"The queue is " << &queue;
 }
