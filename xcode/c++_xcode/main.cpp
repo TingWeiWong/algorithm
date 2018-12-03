@@ -11,6 +11,7 @@
 #include <vector>
 using namespace std;
 int main() {
+    int checkBalance(string s);
     void print_names();
     void print_names2();
     void removeAll();
@@ -21,5 +22,6 @@ int main() {
     cout << "Return 1 if true and 0 otherwise --> " << is_palindrome("AwegCA") << endl;
     cout << "Fibonacci recursive = " << fib_recursive(10) <<endl;
     print_names();
-    print_names2();    
+    print_names2();
+    cout << "The string passed is balanced if returning -1 but  " <<checkBalance("(1+2") << endl;
 }

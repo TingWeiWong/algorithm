@@ -25,11 +25,19 @@ int checkBalance(string code){
             if (parens.empty()){
                 return i;
             }
-            char top = parens.pop();
-            if (top != '}'){
-                return i;
+            else{
+                char top = parens.top();
+                if (top != '(' || top != '{'){
+                    return i;
+                }
+            }
         }
     }
-    return -1;
+    if (parens.empty()){
+        return -1;
+    }
+    else{
+        return code.length();
+    }
 }
-}
+
