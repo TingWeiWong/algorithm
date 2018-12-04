@@ -126,14 +126,14 @@ int disc2(int n){
         return 4*disc2(n-1)-3*disc2(n-2)-10;
     }
 }
-double disc3(int n){
+double disc3(double n){
     if (n == 1){
         return 2.0;
     }else{
-        return (1/n)*(2*n-2)*disc3(n-1)+log2(n/pow(n-1, 2));
+        return (1/n)*((2*n-2)*disc3(n-1)+log2(n/pow(n-1, 2)));
     }
 }
-double disc4(int n){
+double disc4(double n){
     if (n == 1){
         return 1.0;
     }else{
