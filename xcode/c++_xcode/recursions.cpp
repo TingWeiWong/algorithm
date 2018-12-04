@@ -7,6 +7,7 @@
 //
 #include <iostream>
 #include <vector>
+#include <cmath>
 #include "recursions.hpp"
 using namespace std;
 /*
@@ -104,4 +105,35 @@ int evaluate_helper(const string& exp,int& index){
         
     }
     return 0;
+}
+
+int disc1(int n){
+    if(n ==0){
+        return 0;
+    }else if (n == 1){
+        return 3;
+    }else{
+        return disc1(n-1)+2*disc1(n-2)+3*pow(2.0, n)+4;
+    }
+}
+int disc2(int n){
+    if (n == 1){
+        return 9;
+    }else{
+        return 4*disc2(n-1)-3*disc2(n-1)-10;
+    }
+}
+int disc3(int n){
+    if (n == 1){
+        return 2.0;
+    }else{
+        return (1/n)*(2*n-2)*disc3(n-1)+log2(n/pow(n-1, 2));
+    }
+}
+int disc4(int n){
+    if (n == 1){
+        return 1.0;
+    }else{
+        return (1/(n+5))*(n+3)*disc4(n-1)+1;
+    }
 }

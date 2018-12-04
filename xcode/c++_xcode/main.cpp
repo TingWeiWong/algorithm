@@ -23,6 +23,11 @@ int main() {
     int fib_recursive(int n);
     int lcs_dynamic(string x,string y);
     int lis_dynamic(vector<int> l);
+    int disc1(int n);
+    int disc2(int n);
+    int disc3(int n);
+    int disc4(int n);
+
 //    queue<string> queue;
 //    queue.push("s");
 //    queue.push("a");
@@ -36,4 +41,9 @@ int main() {
 //    mirror(queue);
     cout << "LCS dynamic = " << lcs_dynamic("abcs", "iasc") << endl;
     cout << "LIS dynamic = " << lis_dynamic({1,2,3,4,1,2,5,1,2,4}) << endl;
+    cout << "Discrete 1 = "  << disc1(3) << endl;
+    cout << "Discrete 2 = "  << disc2(3) << endl;
+    cout << "Discrete 3 = "  << disc3(3) << endl;
+    cout << "Discrete 4 = "  << disc4(3) << endl;
+
 }
