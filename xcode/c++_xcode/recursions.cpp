@@ -117,23 +117,26 @@ int disc1(int n){
     }
 }
 int disc2(int n){
-    if (n == 1){
+    if (n == 0){
+        return 2;
+    }
+    else  if (n == 1){
         return 9;
     }else{
-        return 4*disc2(n-1)-3*disc2(n-1)-10;
+        return 4*disc2(n-1)-3*disc2(n-2)-10;
     }
 }
-int disc3(int n){
+double disc3(int n){
     if (n == 1){
         return 2.0;
     }else{
         return (1/n)*(2*n-2)*disc3(n-1)+log2(n/pow(n-1, 2));
     }
 }
-int disc4(int n){
+double disc4(int n){
     if (n == 1){
         return 1.0;
     }else{
-        return (1/(n+5))*(n+3)*disc4(n-1)+1;
+        return (1/(n+5))*((n+3)*disc4(n-1)+1);
     }
 }
