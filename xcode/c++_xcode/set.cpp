@@ -15,5 +15,6 @@ using namespace std;
 void addSet(){
     set<string> hi;
     hi.insert("s");
+    hi.insert("a");
     cout << "The set contains " << &hi;
 }
