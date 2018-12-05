@@ -27,6 +27,7 @@ int main() {
     int disc2(int n);
     double disc3(double n);
     double disc4(double n);
+    void addSet();
 
 //    queue<string> queue;
 //    queue.push("s");
@@ -45,5 +46,6 @@ int main() {
     cout << "Discrete 2 = "  << disc2(3) << endl;
     cout << "Discrete 3 = "  << disc3(2) << endl;
     cout << "Discrete 4 = "  << disc4(2) << endl;
+    addSet();
 
 }

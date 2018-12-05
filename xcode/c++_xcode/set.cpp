@@ -8,3 +8,12 @@
 
 #include "set.hpp"
 #include <set>
+#include <iostream>
+#include <string>
+using namespace std;
+
+void addSet(){
+    set<string> hi;
+    hi.insert("s");
+    cout << "The set contains " << &hi;
+}
