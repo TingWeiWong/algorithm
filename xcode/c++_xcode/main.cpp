@@ -28,6 +28,7 @@ int main() {
     double disc3(double n);
     double disc4(double n);
     void addSet();
+    void phoneBook();
 
 //    queue<string> queue;
 //    queue.push("s");
@@ -42,10 +43,11 @@ int main() {
 //    mirror(queue);
     cout << "LCS dynamic = " << lcs_dynamic("abcs", "iasc") << endl;
     cout << "LIS dynamic = " << lis_dynamic({1,2,3,4,1,2,5,1,2,4}) << endl;
-    cout << "Discrete 1 = "  << disc1(3) << endl;
-    cout << "Discrete 2 = "  << disc2(3) << endl;
-    cout << "Discrete 3 = "  << disc3(2) << endl;
-    cout << "Discrete 4 = "  << disc4(2) << endl;
-    addSet();
+//    cout << "Discrete 1 = "  << disc1(3) << endl;
+//    cout << "Discrete 2 = "  << disc2(3) << endl;
+//    cout << "Discrete 3 = "  << disc3(2) << endl;
+//    cout << "Discrete 4 = "  << disc4(2) << endl;
+//    addSet();
+    phoneBook();
 
 }
