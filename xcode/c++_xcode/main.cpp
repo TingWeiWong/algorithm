@@ -52,5 +52,6 @@ int main() {
 //    addSet();
     phoneBook();
     printBinary(4);
+    printDecimal(2);
 
 }
