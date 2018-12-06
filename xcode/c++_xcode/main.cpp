@@ -51,7 +51,7 @@ int main() {
 //    cout << "Discrete 3 = "  << disc3(2) << endl;
 //    cout << "Discrete 4 = "  << disc4(2) << endl;
 //    addSet();
-    phoneBook();
+//    phoneBook();
 //    printBinary(4);
 //    printDecimal(2);
     permute("abc", "");

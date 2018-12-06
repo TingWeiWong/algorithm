@@ -47,7 +47,7 @@ void permute(string s, string prefix){
         for (int i = 0; i < s.length(); i++){
             char ch = s[i];
             string s2 = s.substr(0,i)+s.substr(i+1);
-            permute(s2, prefix + ch);
+            permute(s2,prefix+ch);
         }
     }
     
