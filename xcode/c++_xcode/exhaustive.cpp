@@ -34,3 +34,11 @@ void printDecimal(int digits, string prefix){
         }
     }
 }
+
+void permute(string s){
+    /*
+     print all possible rearrangements in the string
+     */
+    
+    
+}

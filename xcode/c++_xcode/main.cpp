@@ -51,7 +51,7 @@ int main() {
 //    cout << "Discrete 4 = "  << disc4(2) << endl;
 //    addSet();
     phoneBook();
-    printBinary(4);
-    printDecimal(2);
+//    printBinary(4);
+//    printDecimal(2);
 
 }
