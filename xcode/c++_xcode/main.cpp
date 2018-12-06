@@ -29,7 +29,7 @@ int main() {
     double disc4(double n);
     void addSet();
     void phoneBook();
-    void printBinary(int digits);
+    void printBinary(int digits, string prefix = "");
 
 //    queue<string> queue;
 //    queue.push("s");

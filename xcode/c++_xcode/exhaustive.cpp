@@ -14,7 +14,7 @@ using namespace std;
  printBinary(int n) recursive function that prints all binary numers that have exactly n digits
  printBinary(2) --> 00 01 10 11 in ascending order
  */
-void printBinary(int digits){
+void printBinary(int digits, string prefix = ""){
     if (digits == 0){
         // do nothing
     }else if (digits == 1 ){
@@ -22,6 +22,8 @@ void printBinary(int digits){
         cout << 1 << endl;
     }else{
         // recursive case digits >= 2
+        printBinary(digits-1, prefix + "0");
+        printBinary(digits-1, prefix + "1");
     }
 }
 
