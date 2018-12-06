@@ -21,7 +21,7 @@ void printBinary(int digits){
         cout << 0 << endl;
         cout << 1 << endl;
     }else{
-        // recursive case
+        // recursive case digits >= 2
     }
 }
 

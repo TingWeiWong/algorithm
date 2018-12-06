@@ -29,6 +29,7 @@ int main() {
     double disc4(double n);
     void addSet();
     void phoneBook();
+    void printBinary(int digits);
 
 //    queue<string> queue;
 //    queue.push("s");
@@ -49,5 +50,6 @@ int main() {
 //    cout << "Discrete 4 = "  << disc4(2) << endl;
 //    addSet();
     phoneBook();
+    printBinary(2);
 
 }
