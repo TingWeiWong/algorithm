@@ -31,6 +31,7 @@ int main() {
     void phoneBook();
     void printBinary(int digits, string prefix = "");
     void printDecimal(int digits, string prefix = "");
+    void permute(string s, string prefix);
 
 //    queue<string> queue;
 //    queue.push("s");
@@ -53,5 +54,6 @@ int main() {
     phoneBook();
 //    printBinary(4);
 //    printDecimal(2);
+    permute("abc", "");
 
 }
