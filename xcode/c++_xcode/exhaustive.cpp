@@ -17,9 +17,7 @@ using namespace std;
 void printBinary(int digits, string prefix = ""){
     if (digits == 0){
         // do nothing
-    }else if (digits == 1 ){
-        cout << 0 << endl;
-        cout << 1 << endl;
+        cout << prefix << endl ;
     }else{
         // recursive case digits >= 2
         printBinary(digits-1, prefix + "0");
@@ -27,3 +25,14 @@ void printBinary(int digits, string prefix = ""){
     }
 }
 
+void printDecimal(int digits, string prefix = ""){
+    if (digits == 0){
+        // do nothing
+        cout << prefix << endl ;
+    }else{
+        // recursive case digits >= 2
+        for (int i = 0; i <= 9; i++){
+            cout << printDecimal(digits-1, to_string(i)+prefix)
+        };
+    }
+}

@@ -30,6 +30,7 @@ int main() {
     void addSet();
     void phoneBook();
     void printBinary(int digits, string prefix = "");
+    void printDecimal(int digits, string prefix = "");
 
 //    queue<string> queue;
 //    queue.push("s");
@@ -50,6 +51,6 @@ int main() {
 //    cout << "Discrete 4 = "  << disc4(2) << endl;
 //    addSet();
     phoneBook();
-    printBinary(2);
+    printBinary(4);
 
 }
