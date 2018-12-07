@@ -11,21 +11,19 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-void diceRollsHelper(int dice,vector<int>& chosen){
+void diceRollsHelper(int dice,string& chosen){
     // If there are choices to make, for each of choice
     if (dice == 0){
         // base case
-    }else{
+        cout << chosen << endl;
+        }
+    else{
         for (int i = 0; i <= 6; i++){
-            cout << chosen[i];
-            chosen.insert(chosen.begin()+i, i);
-            diceRollsHelper(dice -1 , chosen);
-            chosen.erase(chosen.begin()+chosen.size());
+            chosen += to_string(i);
+            diceRollsHelper(dice - 1, chosen);
+            chosen = chosen.substr(0,chosen.size()-1);
         }
     }
-    // - choose
-    // - search
-    // - unsearch
 }
 
 void diceRolls(int dice){
@@ -33,4 +31,6 @@ void diceRolls(int dice){
      Print all outcomes of rolling the given number of dices in {#,#,#}
      format.
      */
+    string s;
+    diceRollsHelper(dice, s);
 }

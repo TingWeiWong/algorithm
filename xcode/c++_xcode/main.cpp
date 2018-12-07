@@ -32,6 +32,8 @@ int main() {
     void printBinary(int digits, string prefix = "");
     void printDecimal(int digits, string prefix = "");
     void permute(string s, string prefix);
+    void diceRollsHelper(int n, vector<int> v);
+    void diceRolls(int dice);
 
 //    queue<string> queue;
 //    queue.push("s");
@@ -54,6 +56,6 @@ int main() {
 //    phoneBook();
 //    printBinary(4);
 //    printDecimal(2);
-    permute("abc", "");
-
+//    permute("abc", "");
+//    diceRolls(2);
 }
