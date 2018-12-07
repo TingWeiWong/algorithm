@@ -32,8 +32,8 @@ int main() {
     void printBinary(int digits, string prefix = "");
     void printDecimal(int digits, string prefix = "");
     void permute(string s, string prefix);
-    void diceRollsHelper(int n, vector<int> v);
     void diceRolls(int dice);
+    int sumAll(string s);
 
 //    queue<string> queue;
 //    queue.push("s");
@@ -58,4 +58,5 @@ int main() {
 //    printDecimal(2);
 //    permute("abc", "");
 //    diceRolls(2);
+    cout << "Sum = " << sumAll("12") << endl;
 }

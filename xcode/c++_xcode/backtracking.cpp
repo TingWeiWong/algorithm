@@ -34,3 +34,33 @@ void diceRolls(int dice){
     string s;
     diceRollsHelper(dice, s);
 }
+
+void diceSum(int dice, int desiredSum){
+    // TODO
+}
+
+void diceSumHelper(int dice, int desiredSum, string& chosen){
+    int sumAll(string s);
+    if (dice == 0){
+        if (sumAll(chosen) == 0){
+        cout << chosen << endl;
+        }
+    }
+    else{
+        for (int i = 0; i <= 6; i++){
+            chosen += to_string(i);
+            diceRollsHelper(dice - 1, chosen);
+            chosen = chosen.substr(0,chosen.size()-1);
+        }
+    }
+
+}
+
+int sumAll(string s){
+    int result = 0;
+    for (char k : s){
+        result += atoi(&k);
+    }
+    return result;
+}
+
