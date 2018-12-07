@@ -35,21 +35,17 @@ void diceRolls(int dice){
     diceRollsHelper(dice, s);
 }
 
-void diceSum(int dice, int desiredSum){
-    // TODO
-}
-
 void diceSumHelper(int dice, int desiredSum, string& chosen){
     int sumAll(string s);
     if (dice == 0){
-        if (sumAll(chosen) == 0){
-        cout << chosen << endl;
+        if (sumAll(chosen) == false){
+            cout << chosen << endl;
         }
     }
     else{
         for (int i = 0; i <= 6; i++){
             chosen += to_string(i);
-            diceRollsHelper(dice - 1, chosen);
+            diceSumHelper(dice - 1, desiredSum, chosen);
             chosen = chosen.substr(0,chosen.size()-1);
         }
     }
@@ -64,3 +60,7 @@ int sumAll(string s){
     return result;
 }
 
+void diceSum(int dice, int desiredSum){
+    string s = "";
+    diceSumHelper(dice, desiredSum, s);
+}

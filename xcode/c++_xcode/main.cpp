@@ -34,6 +34,7 @@ int main() {
     void permute(string s, string prefix);
     void diceRolls(int dice);
     int sumAll(string s);
+    void diceSum(int dice, int desiredSum);
 
 //    queue<string> queue;
 //    queue.push("s");
@@ -58,5 +59,5 @@ int main() {
 //    printDecimal(2);
 //    permute("abc", "");
 //    diceRolls(2);
-    cout << "Sum = " << sumAll("12") << endl;
+    diceSum(2, 3);
 }
