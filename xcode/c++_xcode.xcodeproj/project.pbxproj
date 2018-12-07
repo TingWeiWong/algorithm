@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		490D057621AB97F200E58921 /* recursions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 490D057421AB97F200E58921 /* recursions.cpp */; };
+		493F4AB821BA136000FD514E /* backtracking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 493F4AB621BA136000FD514E /* backtracking.cpp */; };
 		4944997021B0C14200E3114C /* vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4944996E21B0C14200E3114C /* vector.cpp */; };
 		496CE86921AD2C7A005A9F41 /* dynamic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 496CE86721AD2C7A005A9F41 /* dynamic.cpp */; };
 		49882EA421A4431400BFE27D /* fstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49882EA321A4431400BFE27D /* fstream.cpp */; };
@@ -35,6 +36,8 @@
 /* Begin PBXFileReference section */
 		490D057421AB97F200E58921 /* recursions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = recursions.cpp; sourceTree = "<group>"; };
 		490D057521AB97F200E58921 /* recursions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = recursions.hpp; sourceTree = "<group>"; };
+		493F4AB621BA136000FD514E /* backtracking.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = backtracking.cpp; sourceTree = "<group>"; };
+		493F4AB721BA136000FD514E /* backtracking.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = backtracking.hpp; sourceTree = "<group>"; };
 		4944996E21B0C14200E3114C /* vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cpp; sourceTree = "<group>"; };
 		4944996F21B0C14200E3114C /* vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vector.hpp; sourceTree = "<group>"; };
 		496CE86721AD2C7A005A9F41 /* dynamic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dynamic.cpp; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				49CC5405218C48A300BD06BD /* main.cpp */,
+				493F4AB621BA136000FD514E /* backtracking.cpp */,
+				493F4AB721BA136000FD514E /* backtracking.hpp */,
 				49E5C41D21B8BD24005D2B20 /* exhaustive.cpp */,
 				49E5C41E21B8BD24005D2B20 /* exhaustive.hpp */,
 				49996A2721B7C99B00714629 /* map.cpp */,
@@ -177,6 +182,7 @@
 				49CC5406218C48A300BD06BD /* main.cpp in Sources */,
 				4944997021B0C14200E3114C /* vector.cpp in Sources */,
 				49996A2921B7C99B00714629 /* map.cpp in Sources */,
+				493F4AB821BA136000FD514E /* backtracking.cpp in Sources */,
 				49D14FAD21B4F6F200B77C3F /* queue.cpp in Sources */,
 				49E5C41F21B8BD24005D2B20 /* exhaustive.cpp in Sources */,
 			);
