@@ -38,7 +38,7 @@ void diceRolls(int dice){
 void diceSumHelper(int dice, int desiredSum, string& chosen){
     int sumAll(string s);
     if (dice == 0){
-        if (sumAll(chosen) == false){
+        if (sumAll(chosen) == desiredSum){
             cout << chosen << endl;
         }
     }
