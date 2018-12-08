@@ -59,5 +59,5 @@ int main() {
 //    printDecimal(2);
 //    permute("abc", "");
 //    diceRolls(2);
-    diceSum(4, 3);
+//    diceSum(4, 3);
 }

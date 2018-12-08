@@ -34,6 +34,11 @@ void diceRolls(int dice){
     string s;
     diceRollsHelper(dice, s);
 }
+/*
+ Don't do impossible searches
+ 
+ */
+
 
 void diceSumHelper(int dice, int desiredSum, string& chosen){
     int sumAll(string s);
