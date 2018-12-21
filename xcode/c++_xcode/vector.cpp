@@ -44,8 +44,9 @@ int simpleArraySum(vector<int> ar) {
      */
     int result = 0;
     
-    for (int i = 0; i <= ar.size(); i++){
-        result += (&ar[i]);
+    for (int i = 0; i <= ar.size()-1; i++){
+        result = result + (ar[i]);
+//        cout << "Result = " << result << endl;
     }
     return result;
 }
