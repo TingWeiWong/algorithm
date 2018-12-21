@@ -38,4 +38,15 @@ void removeAll(vector<string>& v,string s){
         }
     }
 }
-
+int simpleArraySum(vector<int> ar) {
+    /*
+     * Write your code here.
+     */
+    int x = 0;
+    
+    for (int i = 0; i <= 3; i++){
+        x += ar[i];
+        cout << x;
+    }
+    return x;
+}
