@@ -42,11 +42,10 @@ int simpleArraySum(vector<int> ar) {
     /*
      * Write your code here.
      */
-    int x = 0;
+    int result = 0;
     
-    for (int i = 0; i <= 3; i++){
-        x += ar[i];
-        cout << x;
+    for (int i = 0; i <= ar.size(); i++){
+        result += (&ar[i]);
     }
-    return x;
+    return result;
 }

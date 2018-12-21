@@ -50,7 +50,7 @@ int main() {
 //    mirror(queue);
     cout << "LCS dynamic = " << lcs_dynamic("abcs", "iasc") << endl;
     cout << "LIS dynamic = " << lis_dynamic({1,2,3,4,1,2,5,1,2,4}) << endl;
-    cout << "Sum of Array = " << simpleArraySum({1}) << endl;
+    cout << "Sum of Array = " << simpleArraySum({1,2,3}) << endl;
 //    cout << "Discrete 1 = "  << disc1(3) << endl;
 //    cout << "Discrete 2 = "  << disc2(3) << endl;
 //    cout << "Discrete 3 = "  << disc3(2) << endl;
