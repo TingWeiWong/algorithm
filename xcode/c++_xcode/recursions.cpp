@@ -143,6 +143,9 @@ double disc4(double n){
 
 void staircase(int n){
     if (n == 1){
+        for (int i = 0; i < n-1; i++){
+            cout << " " ;
+        }
         cout << "#" << endl;
     }else{
         staircase(n-1);
