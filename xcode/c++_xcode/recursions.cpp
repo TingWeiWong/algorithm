@@ -140,3 +140,12 @@ double disc4(double n){
         return (1/(n+5))*((n+3)*disc4(n-1)+1);
     }
 }
+
+void staircase(int n){
+    if (n == 1){
+        cout << "#" << endl;
+    }else{
+        staircase(n-1);
+        cout << string(n,'#') << endl;
+    }
+}
