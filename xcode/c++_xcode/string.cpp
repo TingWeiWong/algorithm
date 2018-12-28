@@ -7,3 +7,17 @@
 //
 
 #include "string.hpp"
+#include <iostream>
+#include <string>
+using namespace std;
+string timeConversion(string s) {
+    /*
+     * Write your code here.
+     */
+    if (s[-2] == 'P'){
+        s[0] = 'a';
+    }
+    cout << "The second last char = " << s[-5] << endl;
+    return s;
+    
+}

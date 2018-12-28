@@ -38,6 +38,7 @@ int main() {
     int simpleArraySum(vector<int> ar);
     void staircase(int n);
     void staircase_forloop(int n);
+    string timeConversion(string s);
 
 //    queue<string> queue;
 //    queue.push("s");
@@ -65,5 +66,6 @@ int main() {
 //    diceRolls(2);
 //    diceSum(4, 3);
 //    staircase(5);
-    staircase_forloop(2);
+//    staircase_forloop(2);
+    cout << timeConversion("07:05:45PM") << endl;
 }
