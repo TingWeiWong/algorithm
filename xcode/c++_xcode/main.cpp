@@ -67,5 +67,5 @@ int main() {
 //    diceSum(4, 3);
 //    staircase(5);
 //    staircase_forloop(2);
-    cout << timeConversion("07:05:45PM") << endl;
+    cout << timeConversion("07:05:45AM") << endl;
 }
