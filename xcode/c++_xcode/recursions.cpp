@@ -151,5 +151,9 @@ void staircase(int n){
 }
 
 void staircase_forloop(int n){
-    
+    for (int i = 0; i < n; i++){
+        cout << string(n-i-1,' ');
+        cout << string(i+1,'#');
+        cout << endl;
+    }
 }

@@ -37,6 +37,7 @@ int main() {
     void diceSum(int dice, int desiredSum);
     int simpleArraySum(vector<int> ar);
     void staircase(int n);
+    void staircase_forloop(int n);
 
 //    queue<string> queue;
 //    queue.push("s");
@@ -63,5 +64,6 @@ int main() {
 //    permute("abc", "");
 //    diceRolls(2);
 //    diceSum(4, 3);
-    staircase(5);
+//    staircase(5);
+    staircase_forloop(2);
 }
