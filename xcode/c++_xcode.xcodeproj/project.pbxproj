@@ -19,6 +19,7 @@
 		49D14FAD21B4F6F200B77C3F /* queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D14FAB21B4F6F200B77C3F /* queue.cpp */; };
 		49E3762021B3E69700F67280 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49E3761E21B3E69700F67280 /* graph.cpp */; };
 		49E5C41F21B8BD24005D2B20 /* exhaustive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49E5C41D21B8BD24005D2B20 /* exhaustive.cpp */; };
+		71F8F0AA21D66F0000E4DA0D /* string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0A821D66F0000E4DA0D /* string.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +59,8 @@
 		49E3761F21B3E69700F67280 /* graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = graph.hpp; sourceTree = "<group>"; };
 		49E5C41D21B8BD24005D2B20 /* exhaustive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exhaustive.cpp; sourceTree = "<group>"; };
 		49E5C41E21B8BD24005D2B20 /* exhaustive.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = exhaustive.hpp; sourceTree = "<group>"; };
+		71F8F0A821D66F0000E4DA0D /* string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = string.cpp; sourceTree = "<group>"; };
+		71F8F0A921D66F0000E4DA0D /* string.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = string.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				490D057521AB97F200E58921 /* recursions.hpp */,
 				496CE86721AD2C7A005A9F41 /* dynamic.cpp */,
 				496CE86821AD2C7A005A9F41 /* dynamic.hpp */,
+				71F8F0A821D66F0000E4DA0D /* string.cpp */,
+				71F8F0A921D66F0000E4DA0D /* string.hpp */,
 			);
 			path = "c++_xcode";
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 				493F4AB821BA136000FD514E /* backtracking.cpp in Sources */,
 				49D14FAD21B4F6F200B77C3F /* queue.cpp in Sources */,
 				49E5C41F21B8BD24005D2B20 /* exhaustive.cpp in Sources */,
+				71F8F0AA21D66F0000E4DA0D /* string.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

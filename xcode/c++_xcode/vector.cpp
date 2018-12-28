@@ -50,3 +50,15 @@ int simpleArraySum(vector<int> ar) {
     }
     return result;
 }
+
+void miniMaxSum(vector<int> arr){
+    long result;
+    long five = 0;
+    for (int i = 0; i < arr.size(); i++){
+        five += arr[i];
+    }
+    int min = *min_element(arr.begin(), arr.end());
+    int max = *max_element(arr.begin(), arr.end());
+    cout << five - min;
+    cout << five - max;
+}
