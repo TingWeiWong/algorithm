@@ -52,7 +52,6 @@ int simpleArraySum(vector<int> ar) {
 }
 
 void miniMaxSum(vector<int> arr){
-    long result;
     long five = 0;
     for (int i = 0; i < arr.size(); i++){
         five += arr[i];
@@ -61,4 +60,11 @@ void miniMaxSum(vector<int> arr){
     int max = *max_element(arr.begin(), arr.end());
     cout << five - min;
     cout << five - max;
+}
+
+vector<int> gradingStudents(vector<int> grades) {
+    /*
+     * Write your code here.
+     */
+    return {1,2,3};
 }
