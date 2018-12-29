@@ -66,5 +66,14 @@ vector<int> gradingStudents(vector<int> grades) {
     /*
      * Write your code here.
      */
-    return {1,2,3};
+    for (int i = 0; i < grades.size(); i++){
+        if (grades[i] >= 38){
+            if ((grades[i] % 10 == 3) || (grades[i] % 10 == 8)){
+                grades[i] += 2;
+            }else if ((grades[i] % 10 == 4) || (grades[i] % 10 == 9)){
+                grades[i] += 1;
+            }
+        }
+    }
+    return grades;
 }
