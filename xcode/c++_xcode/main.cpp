@@ -40,8 +40,8 @@ int main() {
     void staircase_forloop(int n);
     string timeConversion(string s);
     vector<int> gradingStudents(vector<int> grades);
-    double getmedian(vector<int> &arr);
-    double getmean(vector<int> &arr);
+    double getmedian(const vector<int> &arr);
+    double getmean( vector<int> &arr);
 
 //    queue<string> queue;
 //    queue.push("s");

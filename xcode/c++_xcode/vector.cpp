@@ -78,7 +78,7 @@ vector<int> gradingStudents(vector<int> grades) {
     return grades;
 }
 
-double getmean(vector<int> &arr){
+double getmean(const vector<int> arr){
     int result = 0;
     for (int i = 0; i < arr.size(); i++){
         result += arr[i];
@@ -86,7 +86,7 @@ double getmean(vector<int> &arr){
     return result/int(arr.size());
 }
 
-double getmedian(vector<int> &arr){
+double getmedian(const vector<int> &arr){
     sort(arr.begin(),arr.end());
     int length = int(arr.size());
     if (length % 2 == 0){
