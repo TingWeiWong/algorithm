@@ -77,3 +77,26 @@ vector<int> gradingStudents(vector<int> grades) {
     }
     return grades;
 }
+
+double getmean(vector<int> &arr){
+    int result = 0;
+    for (int i = 0; i < arr.size(); i++){
+        result += arr[i];
+    }
+    return result/int(arr.size());
+}
+
+double getmedian(vector<int> &arr){
+    sort(arr.begin(),arr.end());
+    int length = int(arr.size());
+    if (length % 2 == 0){
+        return (arr[length-1]+arr[length])/2;
+    }else{
+        return (arr[(length-1)/2]);
+    }
+}
+
+double getmode(vector<int> &arr){
+    return 0.0;
+    
+}
