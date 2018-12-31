@@ -86,13 +86,14 @@ double getMean(vector<int> arr){
     return result/int(arr.size());
 }
 
-double getMedian(vector<int> &arr){
-    sort(arr.begin(),arr.end());
-    int length = int(arr.size());
+double getMedian(const vector<int> &arr){
+    vector<int> copy = arr;
+    sort(copy.begin(),copy.end());
+    int length = int(copy.size());
     if (length % 2 == 0){
-        return (arr[length-1]+arr[length])/2;
+        return ((copy[(length-1)/2]+copy[(length-1)/2+1])/2);
     }else{
-        return (arr[(length-1)/2]);
+        return (copy[(length-1)/2]);
     }
 }
 
