@@ -40,8 +40,9 @@ int main() {
     void staircase_forloop(int n);
     string timeConversion(string s);
     vector<int> gradingStudents(vector<int> grades);
-    double getMedian(const vector<int> &arr);
+    double getMedian(const vector<int> arr);
     double getMean(vector<int> arr);
+    double getMode(vector<int> arr);
 
 //    queue<string> queue;
 //    queue.push("s");
@@ -74,4 +75,5 @@ int main() {
 //    gradingStudents({1,2,3});
     cout << "Mean = " << getMean({1,2,3}) << endl;
     cout << "Median = " << getMedian({1,20,30,0,50,60}) << endl;
+    cout << "Mode = " << getMode({5,4,2,1,0}) << endl;
 }

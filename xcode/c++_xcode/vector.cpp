@@ -86,7 +86,7 @@ double getMean(vector<int> arr){
     return result/int(arr.size());
 }
 
-double getMedian(const vector<int> &arr){
+double getMedian(const vector<int> arr){
     vector<int> copy = arr;
     sort(copy.begin(),copy.end());
     int length = int(copy.size());
@@ -97,7 +97,24 @@ double getMedian(const vector<int> &arr){
     }
 }
 
-double getMode(vector<int> &arr){
-    return 0.0;
+double getMode(vector<int> arr){
+    vector<int> copy = arr;
+    sort(copy.begin(), copy.end());
+    int result = 0,count = 0; 0;
+    int max = 0;
+    int current = 0 ;
+    for (int i = 0; i < copy.size(); i++){
+        if (copy[i] == current){
+            count += 1;
+        }else{
+            current = copy[i];
+            count = 1;
+        }
+        if (count > max){
+            max = count;
+            result = copy[i];
+        }
+    }
+    return result;
     
 }
