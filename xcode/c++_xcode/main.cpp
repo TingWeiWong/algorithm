@@ -73,8 +73,8 @@ int main() {
 //    staircase_forloop(2);
 //    cout << timeConversion("07:05:45AM") << endl;
 //    gradingStudents({1,2,3});
-    vector<int> testcase = {64630, 11735, 14216, 99233, 14470, 4978, 73429, 38120, 51135, 67060};
-    cout << "Mean = " << getMean(testcase) << endl;
-    cout << "Median = " << getMedian(testcase) << endl;
-    cout << "Mode = " << getMode(testcase) << endl;
+//    vector<int> testcase = {64630, 11735, 14216, 99233, 14470, 4978, 73429, 38120, 51135, 67060};
+//    cout << "Mean = " << getMean(testcase) << endl;
+//    cout << "Median = " << getMedian(testcase) << endl;
+//    cout << "Mode = " << getMode(testcase) << endl;
 }
