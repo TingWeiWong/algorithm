@@ -36,7 +36,6 @@ void diceRolls(int dice){
 }
 /*
  Don't do impossible searches
- 
  */
 
 
