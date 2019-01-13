@@ -8,8 +8,13 @@
 
 #include "class.hpp"
 #include <iostream>
-
+#include<string>
+using namespace std;
 
 class BankAccount{
+public:
+    string name;
+    double balance;
+    
     
 };
