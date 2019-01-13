@@ -68,3 +68,6 @@ void diceSum(int dice, int desiredSum){
     string s = "";
     diceSumHelper(dice, desiredSum, s);
 }
+
+
+void solveQueens(  )
