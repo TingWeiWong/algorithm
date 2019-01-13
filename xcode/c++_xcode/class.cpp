@@ -9,3 +9,7 @@
 #include "class.hpp"
 #include <iostream>
 
+
+class BankAccount{
+    
+};
