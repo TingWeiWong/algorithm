@@ -70,4 +70,6 @@ void diceSum(int dice, int desiredSum){
 }
 
 
-void solveQueens(  )
+void solveQueens(int num){
+    
+}
