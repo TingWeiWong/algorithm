@@ -43,7 +43,7 @@ int main() {
     double getMedian(const vector<int> arr);
     double getMean(vector<int> arr);
     double getMode(vector<int> arr);
-
+    int solveQueen(int n);
 //    queue<string> queue;
 //    queue.push("s");
 //    queue.push("a");
@@ -57,6 +57,7 @@ int main() {
 //    mirror(queue);
     cout << "LCS dynamic = " << lcs_dynamic("abcs", "iasc") << endl;
     cout << "LIS dynamic = " << lis_dynamic({1,2,3,4,1,2,5,1,2,4}) << endl;
+    solveQueen(0);
 //    cout << "Sum of Array = " << simpleArraySum({1,2,3,4,5,6}) << endl;
 //    cout << "Discrete 1 = "  << disc1(3) << endl;
 //    cout << "Discrete 2 = "  << disc2(3) << endl;
