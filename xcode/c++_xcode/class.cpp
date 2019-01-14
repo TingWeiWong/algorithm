@@ -12,5 +12,8 @@
 using namespace std;
 
 void BankAccount::deposit(double amount){
-    
+    balance += amount;
+}
+void BankAccount::withdraw(double amount){
+    balance -= amount;
 }

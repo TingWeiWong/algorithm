@@ -18,6 +18,8 @@ public:
     int id;
     string name;
     double balance;
+    void deposit(double amount);
+    void withdraw(double amount);
     
 };
 #endif /* class_hpp */
