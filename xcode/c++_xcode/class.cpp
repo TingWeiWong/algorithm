@@ -16,7 +16,7 @@ public:
     string name;
     double balance;
     void deposit(double ammount){
-        
+        delete a;
     }
     
 };
