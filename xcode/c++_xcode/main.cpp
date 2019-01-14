@@ -11,6 +11,7 @@
 #include <vector>
 #include <queue>
 #include <stack>
+#include "class.hpp"
 using namespace std;
 int main() {
     int checkBalance(string s);
@@ -44,6 +45,11 @@ int main() {
     double getMean(vector<int> arr);
     double getMode(vector<int> arr);
     int solveQueen(int n);
+    BankAccount a1;
+    a1.name = "Andrew";
+    a1.balance = 5.0;
+    a1.deposit(13);
+    cout << "Balance = " << a1.balance << endl;
 //    queue<string> queue;
 //    queue.push("s");
 //    queue.push("a");
