@@ -116,3 +116,7 @@ void solveQueen(int k)
         }
     }
 }
+
+class Queen{
+    
+};

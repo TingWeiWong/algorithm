@@ -11,12 +11,6 @@
 #include<string>
 using namespace std;
 
-class BankAccount{
-public:
-    string name;
-    double balance;
-    void deposit(double ammount){
-        delete a;
-    }
+void BankAccount::deposit(double amount){
     
-};
+}

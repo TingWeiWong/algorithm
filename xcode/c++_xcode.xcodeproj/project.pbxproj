@@ -98,9 +98,9 @@
 			children = (
 				49CC5405218C48A300BD06BD /* main.cpp */,
 				493F4AB621BA136000FD514E /* backtracking.cpp */,
+				493F4AB721BA136000FD514E /* backtracking.hpp */,
 				71429EFD21EB67BE00E06BE1 /* class.cpp */,
 				71429EFE21EB67BE00E06BE1 /* class.hpp */,
-				493F4AB721BA136000FD514E /* backtracking.hpp */,
 				49E5C41D21B8BD24005D2B20 /* exhaustive.cpp */,
 				49E5C41E21B8BD24005D2B20 /* exhaustive.hpp */,
 				49996A2721B7C99B00714629 /* map.cpp */,

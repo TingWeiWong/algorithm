@@ -8,7 +8,16 @@
 
 #ifndef class_hpp
 #define class_hpp
-
+#include <string>
+#include <iostream>
 #include <stdio.h>
+using namespace std;
 
+class BankAccount{
+public:
+    int id;
+    string name;
+    double balance;
+    
+};
 #endif /* class_hpp */
