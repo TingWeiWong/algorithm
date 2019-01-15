@@ -14,10 +14,11 @@
 using namespace std;
 
 class BankAccount{
-public:
+private:
     int id;
     string name;
     double balance;
+public:
     void deposit(double amount);
     void withdraw(double amount);
     
