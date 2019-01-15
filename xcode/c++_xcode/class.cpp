@@ -11,6 +11,10 @@
 #include<string>
 using namespace std;
 
+BankAccount::BankAccount(string n){
+    name = n;
+    balance = 0.0;
+}
 void BankAccount::deposit(double amount){
     balance += amount;
 }

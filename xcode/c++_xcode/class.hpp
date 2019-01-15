@@ -21,6 +21,6 @@ private:
 public:
     void deposit(double amount);
     void withdraw(double amount);
-    
+    BankAccount(string n);
 };
 #endif /* class_hpp */
