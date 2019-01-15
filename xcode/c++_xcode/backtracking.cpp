@@ -69,6 +69,7 @@ void diceSum(int dice, int desiredSum){
     diceSumHelper(dice, desiredSum, s);
 }
 
-class Queen{
+
+void isSafe(int column, int row){
     
-};
+}
