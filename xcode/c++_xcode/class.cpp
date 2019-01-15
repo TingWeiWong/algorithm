@@ -15,6 +15,9 @@ BankAccount::BankAccount(string n){
     name = n;
     balance = 0.0;
 }
+double BankAccount::getBalance(){
+    return balance;
+}
 void BankAccount::deposit(double amount){
     balance += amount;
 }

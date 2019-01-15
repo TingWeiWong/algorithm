@@ -47,6 +47,7 @@ int main() {
     int solveQueen(int n);
     BankAccount a1("Andrew");
     a1.deposit(13);
+    cout << "Balance = " << a1.getBalance() << endl;
 //    queue<string> queue;
 //    queue.push("s");
 //    queue.push("a");

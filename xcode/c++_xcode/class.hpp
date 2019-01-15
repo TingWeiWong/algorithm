@@ -22,5 +22,6 @@ public:
     void deposit(double amount);
     void withdraw(double amount);
     BankAccount(string n);
+    double getBalance();
 };
 #endif /* class_hpp */
