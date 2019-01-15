@@ -15,5 +15,7 @@ void BankAccount::deposit(double amount){
     balance += amount;
 }
 void BankAccount::withdraw(double amount){
-    balance -= amount;
+    if (amount >= 0.0 && balance >= amount){
+        balance -= amount;
+    }
 }
