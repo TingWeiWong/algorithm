@@ -75,24 +75,12 @@ void isSafe(int column, int row){
 }
 
 
-int** create2DArray(unsigned height, unsigned width)
-{
-    int** array2D = 0;
-    array2D = new int*[height];
-    
-    for (int h = 0; h < height; h++)
-    {
-        array2D[h] = new int[width];
-        
-        for (int w = 0; w < width; w++)
-        {
-            // fill in some initial values
-            // (filling in zeros would be more logic, but this is just for the example)
-            array2D[h][w] = w + width * h;
-        }
+int** createBoard(int column, int row){
+    int** result = new int*[row];
+    for(int i = 0; i < row; i++){
+        result[i] = new int[column];
     }
-    
-    return array2D;
+    return result;
 }
 
 
