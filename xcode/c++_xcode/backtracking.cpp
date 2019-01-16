@@ -74,15 +74,6 @@ void isSafe(int column, int row){
     
 }
 
-int** constructBoard(int n){
-    int result[n][n];
-    for (int i = 0; i < n; i++){
-        for (int j = 0; j < n; j++){
-            result[i][j] = 0;
-        }
-    }
-    return result;
-}
 
 int** create2DArray(unsigned height, unsigned width)
 {
@@ -103,4 +94,5 @@ int** create2DArray(unsigned height, unsigned width)
     
     return array2D;
 }
+
 

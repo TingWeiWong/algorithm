@@ -48,6 +48,8 @@ int main() {
     BankAccount a1("Andrew");
     a1.deposit(13);
     cout << "Balance = " << a1.getBalance() << endl;
+    int** create2DArray(unsigned height, unsigned width);
+
 //    queue<string> queue;
 //    queue.push("s");
 //    queue.push("a");
@@ -59,6 +61,7 @@ int main() {
 //    print_names2();
 //    cout << "The string passed is balanced if returning -1 but  " << checkBalance("(1+2") << endl;
 //    mirror(queue);
+    cout << **create2DArray(3, 4) << endl;
     cout << "LCS dynamic = " << lcs_dynamic("abcs", "iasc") << endl;
     cout << "LIS dynamic = " << lis_dynamic({1,2,3,4,1,2,5,1,2,4}) << endl;
 //    cout << "Sum of Array = " << simpleArraySum({1,2,3,4,5,6}) << endl;
