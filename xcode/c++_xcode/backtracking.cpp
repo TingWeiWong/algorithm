@@ -73,3 +73,34 @@ void diceSum(int dice, int desiredSum){
 void isSafe(int column, int row){
     
 }
+
+int** constructBoard(int n){
+    int result[n][n];
+    for (int i = 0; i < n; i++){
+        for (int j = 0; j < n; j++){
+            result[i][j] = 0;
+        }
+    }
+    return result;
+}
+
+int** create2DArray(unsigned height, unsigned width)
+{
+    int** array2D = 0;
+    array2D = new int*[height];
+    
+    for (int h = 0; h < height; h++)
+    {
+        array2D[h] = new int[width];
+        
+        for (int w = 0; w < width; w++)
+        {
+            // fill in some initial values
+            // (filling in zeros would be more logic, but this is just for the example)
+            array2D[h][w] = w + width * h;
+        }
+    }
+    
+    return array2D;
+}
+
