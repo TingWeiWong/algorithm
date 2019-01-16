@@ -75,11 +75,20 @@ void isSafe(int column, int row){
 }
 
 
-int** createBoard(int column, int row){
+int** createBoard(int row, int column){
     int** result = new int*[row];
     for(int i = 0; i < row; i++){
         result[i] = new int[column];
     }
+//    for (int j = 0; j < row; j++){
+//        for (int k = 0; k < column; k++){
+//            result[j][k] = 3;
+//        }
+//    }
+    result[0][0] = 10;
+    result[0][1] = 2;
+    result[1][0] = 1;
+    result[1][1] = 0;
     return result;
 }
 

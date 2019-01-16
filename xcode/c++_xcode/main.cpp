@@ -60,7 +60,7 @@ int main() {
 //    print_names2();
 //    cout << "The string passed is balanced if returning -1 but  " << checkBalance("(1+2") << endl;
 //    mirror(queue);
-    int test = **createBoard(3, 4);
+    int test = **createBoard(2,2);
     cout << "Test = " << test << endl;
     cout << "LCS dynamic = " << lcs_dynamic("abcs", "iasc") << endl;
     cout << "LIS dynamic = " << lis_dynamic({1,2,3,4,1,2,5,1,2,4}) << endl;
