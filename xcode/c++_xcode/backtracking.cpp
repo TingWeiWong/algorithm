@@ -70,13 +70,6 @@ void diceSum(int dice, int desiredSum){
 }
 
 
-<<<<<<< HEAD
-void 
-=======
-void isSafe(int column, int row){
-    
-}
-
 
 int** createBoard(int row, int column){
     int** result = new int*[row];
@@ -96,4 +89,3 @@ int** createBoard(int row, int column){
 }
 
 
->>>>>>> caaddc6480b59d09b24469536257dc1bf9901186
