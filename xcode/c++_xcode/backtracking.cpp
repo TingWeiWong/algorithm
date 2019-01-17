@@ -69,6 +69,5 @@ void diceSum(int dice, int desiredSum){
     diceSumHelper(dice, desiredSum, s);
 }
 
-class Queen{
-    
-};
+
+void 
