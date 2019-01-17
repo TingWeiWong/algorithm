@@ -45,9 +45,6 @@ int main() {
     double getMean(vector<int> arr);
     double getMode(vector<int> arr);
     int solveQueen(int n);
-    BankAccount a1("Andrew");
-    a1.deposit(13);
-    cout << "Balance = " << a1.getBalance() << endl;
     int** createBoard(int column, int row);
 //    queue<string> queue;
 //    queue.push("s");
