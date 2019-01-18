@@ -46,6 +46,7 @@ int main() {
     double getMode(vector<int> arr);
     int solveQueen(int n);
     int** createBoard(int column, int row);
+    vector<vector<int>> Board(int column, int row);
 //    queue<string> queue;
 //    queue.push("s");
 //    queue.push("a");
