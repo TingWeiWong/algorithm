@@ -93,7 +93,7 @@ vector<vector<int>> Board(int row, int column){
     vector<vector<int>> result;
     for (int i = 0; i < row; i++){
         for (int j = 0; j < column; j++){
-            result[i][j] = 0;
+//            result[i][j] = 0;
         }
     }
     return result;
