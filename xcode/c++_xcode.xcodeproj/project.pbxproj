@@ -10,6 +10,7 @@
 		490D057621AB97F200E58921 /* recursions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 490D057421AB97F200E58921 /* recursions.cpp */; };
 		493F4AB821BA136000FD514E /* backtracking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 493F4AB621BA136000FD514E /* backtracking.cpp */; };
 		4944997021B0C14200E3114C /* vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4944996E21B0C14200E3114C /* vector.cpp */; };
+		495D20FB21F203440075B605 /* pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 495D20F921F203440075B605 /* pointers.cpp */; };
 		496CE86921AD2C7A005A9F41 /* dynamic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 496CE86721AD2C7A005A9F41 /* dynamic.cpp */; };
 		49882EA421A4431400BFE27D /* fstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49882EA321A4431400BFE27D /* fstream.cpp */; };
 		49996A2921B7C99B00714629 /* map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49996A2721B7C99B00714629 /* map.cpp */; };
@@ -42,6 +43,8 @@
 		493F4AB721BA136000FD514E /* backtracking.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = backtracking.hpp; sourceTree = "<group>"; };
 		4944996E21B0C14200E3114C /* vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cpp; sourceTree = "<group>"; };
 		4944996F21B0C14200E3114C /* vector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vector.hpp; sourceTree = "<group>"; };
+		495D20F921F203440075B605 /* pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointers.cpp; sourceTree = "<group>"; };
+		495D20FA21F203440075B605 /* pointers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pointers.hpp; sourceTree = "<group>"; };
 		496CE86721AD2C7A005A9F41 /* dynamic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dynamic.cpp; sourceTree = "<group>"; };
 		496CE86821AD2C7A005A9F41 /* dynamic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dynamic.hpp; sourceTree = "<group>"; };
 		49882EA321A4431400BFE27D /* fstream.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fstream.cpp; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				49CC5405218C48A300BD06BD /* main.cpp */,
+				495D20F921F203440075B605 /* pointers.cpp */,
+				495D20FA21F203440075B605 /* pointers.hpp */,
 				493F4AB621BA136000FD514E /* backtracking.cpp */,
 				493F4AB721BA136000FD514E /* backtracking.hpp */,
 				71429EFD21EB67BE00E06BE1 /* class.cpp */,
@@ -183,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				495D20FB21F203440075B605 /* pointers.cpp in Sources */,
 				49AD617B21B7656000D7E4F8 /* set.cpp in Sources */,
 				49E3762021B3E69700F67280 /* graph.cpp in Sources */,
 				490D057621AB97F200E58921 /* recursions.cpp in Sources */,
