@@ -83,4 +83,7 @@ int main() {
 //    cout << "Mean = " << getMean(testcase) << endl;
 //    cout << "Median = " << getMedian(testcase) << endl;
 //    cout << "Mode = " << getMode(testcase) << endl;
+    int x = 42;
+    int* p = &x;
+    cout << "P = " << p << endl;
 }
