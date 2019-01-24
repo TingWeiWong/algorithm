@@ -12,3 +12,13 @@
 #include <string>
 using namespace std;
 
+struct Node {
+    int data;
+    struct Node *next;
+};
+
+struct Node* head = nullptr;
+
+void insert(int new_data){
+    
+}
