@@ -12,12 +12,12 @@
 #include <string>
 using namespace std;
 
-struct Node {
+struct ListNode {
     int data;
-    struct Node *next;
+    struct ListNode *next;
 };
 
-struct Node* head = nullptr;
+struct ListNode* head = nullptr;
 
 void insert(int new_data){
     
