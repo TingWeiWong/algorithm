@@ -28,5 +28,5 @@ void BankAccount::withdraw(double amount){
 }
 
 bool operator == (const BankAccount& ba1, const BankAccount& ba2){
-    return ba1.getBalance() == ba2.getBalance();
+    return ba1.getBalance() == ba2.getBalance() && ba1.name == ba2.name;
 }
