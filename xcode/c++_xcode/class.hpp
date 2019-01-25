@@ -22,6 +22,12 @@ public:
     void deposit(double amount);
     void withdraw(double amount);
     BankAccount(string n);
-    double getBalance();
+    double getBalance() const;
+    friend bool operator == (const BankAccount& ba1, const BankAccount& ba2);
 };
+
+// operator overloading
+
+bool operator ==(const BankAccount& ba1, const BankAccount& ba2 );
+
 #endif /* class_hpp */

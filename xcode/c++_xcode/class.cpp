@@ -15,7 +15,7 @@ BankAccount::BankAccount(string n){
     name = n;
     balance = 0.0;
 }
-double BankAccount::getBalance(){
+double BankAccount::getBalance() const {
     return balance;
 }
 void BankAccount::deposit(double amount){
@@ -25,4 +25,8 @@ void BankAccount::withdraw(double amount){
     if (amount >= 0.0 && balance >= amount){
         balance -= amount;
     }
+}
+
+bool operator == (const BankAccount& ba1, const BankAccount& ba2){
+    return ba1.getBalance() == ba2.getBalance();
 }
