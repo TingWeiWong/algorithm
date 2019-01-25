@@ -14,10 +14,16 @@ using namespace std;
 
 struct ListNode {
     int data;
-    struct ListNode *next;
+    ListNode* next;
 };
 
-struct ListNode* head = nullptr;
+ListNode* middle;
+ListNode* tail;
+ListNode* head;
+
+
+
+
 
 void insert(int new_data){
     
