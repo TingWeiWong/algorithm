@@ -23,6 +23,7 @@ public:
     void withdraw(double amount);
     BankAccount(string n);
     double getBalance() const;
+    string getName() const;
     friend bool operator == (const BankAccount& ba1, const BankAccount& ba2);
 };
 

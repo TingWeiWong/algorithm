@@ -15,6 +15,9 @@ BankAccount::BankAccount(string n){
     name = n;
     balance = 0.0;
 }
+string BankAccount::getName() const{
+    return name;
+}
 double BankAccount::getBalance() const {
     return balance;
 }
@@ -29,4 +32,9 @@ void BankAccount::withdraw(double amount){
 
 bool operator == (const BankAccount& ba1, const BankAccount& ba2){
     return ba1.getBalance() == ba2.getBalance() && ba1.name == ba2.name;
+}
+
+ostream& operator <<(ostream& out, const BankAccount& ba){
+    out << ba.getName() << ", " << "$" << ba.getBalance();
+    return out;
 }
