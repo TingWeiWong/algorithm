@@ -38,3 +38,7 @@ ostream& operator <<(ostream& out, const BankAccount& ba){
     out << ba.getName() << ", " << "$" << ba.getBalance();
     return out;
 }
+
+BankAccount::~BankAccount(){
+    cout << "Destructor called for " << *this << endl;
+}
