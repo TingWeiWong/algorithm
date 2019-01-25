@@ -86,6 +86,7 @@ int main() {
 //    cout << "Mode = " << getMode(testcase) << endl;
     int x = 42;
     int* p = &x;
-    cout << "P = " << p << endl;
+    cout << "Address of P = " << p << endl;
+    cout << "Value of P = " << *p << endl;
     fourNode();
 }

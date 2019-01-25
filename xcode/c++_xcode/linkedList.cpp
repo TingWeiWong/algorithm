@@ -46,5 +46,7 @@ void fourNode(){
     head -> data = 4;
     middle -> next = head;
     head -> next = nullptr;
-    cout << "Head is " << head ->data << endl;
+    cout << "Head data " << head ->data << endl;
+    cout << "Middle data " << middle -> data << endl;
+    cout << "Tail data " << tail -> data << endl;
 }
