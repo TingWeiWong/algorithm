@@ -47,6 +47,7 @@ int main() {
     int solveQueen(int n);
     int** createBoard(int column, int row);
     vector<vector<int>> Board(int column, int row);
+    void fourNode();
 //    queue<string> queue;
 //    queue.push("s");
 //    queue.push("a");
@@ -86,4 +87,5 @@ int main() {
     int x = 42;
     int* p = &x;
     cout << "P = " << p << endl;
+    fourNode();
 }
