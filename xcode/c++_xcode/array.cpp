@@ -43,7 +43,9 @@ void ArrayStack::push(int n){
         for (int i = 0; i < size; i++){
             bigger[i] = elements[i];
         }
-        
+        delete [] elements;
+        elements = bigger;
+        capacity *= 2;
     }else{
         elements[size] = n;
         size ++;
