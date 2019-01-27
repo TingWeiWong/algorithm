@@ -24,3 +24,15 @@ using namespace std;
  The memory allocated for the array must be released or there will be memory leak
  int* homework = new int[7]
  */
+
+void makeArrays(){
+    int x = 42;
+    int y = 61;
+    int a1[3];
+    int* a2 = new int[3]; // a2 is a pointer to a new heap of length 3
+    
+}
+
+// If we want to initialize to 0, use type* name = new type[length]()
+
+
