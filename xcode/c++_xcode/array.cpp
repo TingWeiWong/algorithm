@@ -30,7 +30,6 @@ void makeArrays(){
     int y = 61;
     int a1[3];
     int* a2 = new int[3]; // a2 is a pointer to a new heap of length 3
-    
 }
 
 // If we want to initialize to 0, use type* name = new type[length]()
