@@ -23,7 +23,9 @@ public:
     bool isEmpty();
     friend ostream& operator <<(ostream& out, const ArrayStack& stack);
 private:
-    
+    int* elements;
+    int size;
+    int capacity;
 };
 
 ostream& operator <<(ostream& out, const ArrayStack& stack);
