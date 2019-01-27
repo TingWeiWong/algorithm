@@ -39,6 +39,11 @@ ArrayStack::~ArrayStack(){
 void ArrayStack::push(int n){
     if (size >= capacity){
         // Not able to stack
+        int* bigger = new int [capacity*10]();
+        for (int i = 0; i < size; i++){
+            bigger[i] = elements[i];
+        }
+        
     }else{
         elements[size] = n;
         size ++;
