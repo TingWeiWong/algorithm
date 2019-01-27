@@ -35,18 +35,3 @@ void makeArrays(){
 
 // If we want to initialize to 0, use type* name = new type[length]()
 
-class ArrayStack {
-public:
-    ArrayStack();
-    ~ArrayStack();
-    
-    void push();
-    int pop();
-    int peek();
-    bool isEmpty();
-    friend ostream& operator <<(ostream& out, const ArrayStack& stack);
-private:
-    
-};
-
-ostream& operator <<(ostream& out, const ArrayStack& stack);
