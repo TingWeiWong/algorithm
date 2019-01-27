@@ -56,15 +56,23 @@ int ArrayStack::pop(){
         return result;
     }
 }
-int ArrayStack::peek(){
+int ArrayStack::peek() const{
     if (isEmpty()){
         throw "Empty array!";
     }
     return elements[size-1];
 }
-bool ArrayStack::isEmpty(){
+bool ArrayStack::isEmpty() const{
     return size == 0;
 }
 ostream& operator <<(ostream& out, const ArrayStack& stack){
-    
+    out << "{" ;
+    if (!stack.isEmpty()){
+        out << stack.elements[0];
+        for (int i = 1; i < stack.size; i++){
+            out << ", " << stack.elements[i];
+        }
+    }
+    out << "}" ;
+    return out;
 }

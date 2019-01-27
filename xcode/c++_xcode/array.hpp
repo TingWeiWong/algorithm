@@ -18,8 +18,8 @@ public:
     ~ArrayStack();
     void push(int n);
     int pop();
-    int peek();
-    bool isEmpty();
+    int peek() const;
+    bool isEmpty() const;
     friend ostream& operator <<(ostream& out, const ArrayStack& stack);
 private:
     int* elements;
