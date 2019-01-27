@@ -16,8 +16,7 @@ class ArrayStack {
 public:
     ArrayStack();
     ~ArrayStack();
-    
-    void push();
+    void push(int n);
     int pop();
     int peek();
     bool isEmpty();

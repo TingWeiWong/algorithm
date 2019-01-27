@@ -25,12 +25,46 @@ using namespace std;
  int* homework = new int[7]
  */
 
-void makeArrays(){
-    int x = 42;
-    int y = 61;
-    int a1[3];
-    int* a2 = new int[3]; // a2 is a pointer to a new heap of length 3
-}
-
 // If we want to initialize to 0, use type* name = new type[length]()
 
+ArrayStack::ArrayStack(){
+    size = 0;
+    capacity = 10;
+    elements = new int[capacity]();
+}
+ArrayStack::~ArrayStack(){
+    delete[] elements;
+}
+
+void ArrayStack::push(int n){
+    if (size >= capacity){
+        // Not able to stack
+    }else{
+        elements[size] = n;
+        size ++;
+    }
+
+    
+}
+int ArrayStack::pop(){
+    if (isEmpty()){
+        throw "Empty array!";
+    }else{
+        int result = elements[size-1];
+        elements[size-1] = 0;
+        size--;
+        return result;
+    }
+}
+int ArrayStack::peek(){
+    if (isEmpty()){
+        throw "Empty array!";
+    }
+    return elements[size-1];
+}
+bool ArrayStack::isEmpty(){
+    return size == 0;
+}
+ostream& operator <<(ostream& out, const ArrayStack& stack){
+    
+}
