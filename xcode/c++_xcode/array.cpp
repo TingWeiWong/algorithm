@@ -27,6 +27,7 @@ using namespace std;
 
 // If we want to initialize to 0, use type* name = new type[length]()
 
+
 ArrayStack::ArrayStack(){
     size = 0;
     capacity = 10;
