@@ -12,11 +12,9 @@ using namespace std;
 
 // Print all nodes of the tree with the given node as root
 void printBinaryTree(TreeNode* node){
-    cout << node -> data << endl;
-    if (node -> left != nullptr) {
+    if (node != nullptr){
+        cout << node -> data << endl;
         printBinaryTree(node -> left);
-    }
-    if (node -> right != nullptr) {
         printBinaryTree(node -> right);
-    }
+        }
 }
