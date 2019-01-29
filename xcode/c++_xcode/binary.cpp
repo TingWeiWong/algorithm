@@ -28,11 +28,13 @@ int sizeBinaryTree(TreeNode* node){
 }
 
 bool containsValue(TreeNode* node, int value){
-    if (node -> data == value){
-        return true;
-    }else{
-        containsValue(node -> left, value);
-        containsValue(node -> right, value);
-        return false;
+    if (node != nullptr){
+        if (node -> data == value){
+            return true;
+        }
+        if (containsValue(node -> left, value) || containsValue(node -> right, value)){
+            return true;
+        }
     }
+    return false;
 }
