@@ -18,3 +18,11 @@ void printBinaryTree(TreeNode* node){
         printBinaryTree(node -> right);
         }
 }
+
+int sizeBinaryTree(TreeNode* node){
+    if (node == nullptr){
+        return 0;
+    }else{
+        return 1 + sizeBinaryTree(node -> left) + sizeBinaryTree(node -> right);
+    }
+}

@@ -50,6 +50,7 @@ int main() {
     vector<vector<int>> Board(int column, int row);
     void fourNode();
     void printBinaryTree(TreeNode* node);
+    int sizeBinaryTree(TreeNode* node);
 //    queue<string> queue;
 //    queue.push("s");
 //    queue.push("a");
@@ -94,5 +95,6 @@ int main() {
     TreeNode* root = new TreeNode(9,nullptr,nullptr);
     root -> left = new TreeNode(6,nullptr,nullptr);
     printBinaryTree(root);
+    cout << "Size of Binary Tree = " << sizeBinaryTree(root) << endl;
     
 }
