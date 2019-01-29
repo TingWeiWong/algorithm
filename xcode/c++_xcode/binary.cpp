@@ -24,4 +24,9 @@ struct TreeNode{
         return left == nullptr && right == nullptr;
     }
 };
+//
+//void constructTree(){
+//    TreeNode* root = new TreeNode;
+//}
+
 

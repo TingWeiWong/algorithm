@@ -12,6 +12,7 @@
 #include <queue>
 #include <stack>
 #include "class.hpp"
+#include "binary.cpp"
 using namespace std;
 int main() {
     int checkBalance(string s);
@@ -89,4 +90,6 @@ int main() {
     cout << "Address of P = " << p << endl;
     cout << "Value of P = " << *p << endl;
     fourNode();
+    TreeNode* root = new TreeNode(9,nullptr,nullptr);
+    root -> left = new TreeNode(6,nullptr,nullptr);
 }
