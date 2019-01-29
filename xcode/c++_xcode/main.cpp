@@ -12,7 +12,7 @@
 #include <queue>
 #include <stack>
 #include "class.hpp"
-#include "binary.cpp"
+#include "binary.hpp"
 using namespace std;
 int main() {
     int checkBalance(string s);
