@@ -10,7 +10,7 @@
 #include <iostream>
 using namespace std;
 
-
-void helloworld(){
+// Print all nodes of the tree with the given node as root
+void printBinary(TreeNode* node){
     cout << "Hi" << endl;
 }
