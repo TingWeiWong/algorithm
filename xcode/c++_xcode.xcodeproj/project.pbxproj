@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		490D057621AB97F200E58921 /* recursions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 490D057421AB97F200E58921 /* recursions.cpp */; };
+		4913CC4522001DA90071AD06 /* binary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4913CC4322001DA90071AD06 /* binary.cpp */; };
 		4932E77F21F2F52D00AA85FF /* linkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4932E77D21F2F52D00AA85FF /* linkedList.cpp */; };
 		493F4AB821BA136000FD514E /* backtracking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 493F4AB621BA136000FD514E /* backtracking.cpp */; };
 		4944997021B0C14200E3114C /* vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4944996E21B0C14200E3114C /* vector.cpp */; };
@@ -41,6 +42,8 @@
 /* Begin PBXFileReference section */
 		490D057421AB97F200E58921 /* recursions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = recursions.cpp; sourceTree = "<group>"; };
 		490D057521AB97F200E58921 /* recursions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = recursions.hpp; sourceTree = "<group>"; };
+		4913CC4322001DA90071AD06 /* binary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = binary.cpp; sourceTree = "<group>"; };
+		4913CC4422001DA90071AD06 /* binary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = binary.hpp; sourceTree = "<group>"; };
 		4932E77D21F2F52D00AA85FF /* linkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = linkedList.cpp; sourceTree = "<group>"; };
 		4932E77E21F2F52D00AA85FF /* linkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = linkedList.hpp; sourceTree = "<group>"; };
 		493F4AB621BA136000FD514E /* backtracking.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = backtracking.cpp; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				49CC5405218C48A300BD06BD /* main.cpp */,
+				4913CC4322001DA90071AD06 /* binary.cpp */,
+				4913CC4422001DA90071AD06 /* binary.hpp */,
 				7130C93921FD61BB008835CF /* array.cpp */,
 				7130C93A21FD61BB008835CF /* array.hpp */,
 				4932E77D21F2F52D00AA85FF /* linkedList.cpp */,
@@ -202,6 +207,7 @@
 				49AD617B21B7656000D7E4F8 /* set.cpp in Sources */,
 				4932E77F21F2F52D00AA85FF /* linkedList.cpp in Sources */,
 				49E3762021B3E69700F67280 /* graph.cpp in Sources */,
+				4913CC4522001DA90071AD06 /* binary.cpp in Sources */,
 				7130C93B21FD61BB008835CF /* array.cpp in Sources */,
 				490D057621AB97F200E58921 /* recursions.cpp in Sources */,
 				496CE86921AD2C7A005A9F41 /* dynamic.cpp in Sources */,
