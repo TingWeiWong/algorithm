@@ -7,3 +7,6 @@
 //
 
 #include "binary.hpp"
+#include <iostream>
+using namespace std;
+
