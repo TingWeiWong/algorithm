@@ -49,6 +49,7 @@ int main() {
     int** createBoard(int column, int row);
     vector<vector<int>> Board(int column, int row);
     void fourNode();
+    void printBinaryTree(TreeNode* node);
 //    queue<string> queue;
 //    queue.push("s");
 //    queue.push("a");
@@ -92,4 +93,6 @@ int main() {
     fourNode();
     TreeNode* root = new TreeNode(9,nullptr,nullptr);
     root -> left = new TreeNode(6,nullptr,nullptr);
+    printBinaryTree(root);
+    
 }
