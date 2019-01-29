@@ -26,3 +26,13 @@ int sizeBinaryTree(TreeNode* node){
         return 1 + sizeBinaryTree(node -> left) + sizeBinaryTree(node -> right);
     }
 }
+
+bool containsValue(TreeNode* node, int value){
+    if (node -> data == value){
+        return true;
+    }else{
+        containsValue(node -> left, value);
+        containsValue(node -> right, value);
+        return false;
+    }
+}
