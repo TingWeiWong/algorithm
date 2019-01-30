@@ -109,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				49CC5405218C48A300BD06BD /* main.cpp */,
+				49E3761E21B3E69700F67280 /* graph.cpp */,
+				49E3761F21B3E69700F67280 /* graph.hpp */,
 				4913CC4322001DA90071AD06 /* binary.cpp */,
 				4913CC4422001DA90071AD06 /* binary.hpp */,
 				7130C93921FD61BB008835CF /* array.cpp */,
@@ -131,8 +133,6 @@
 				49C22B0221B4D25A00612BA3 /* stacks.hpp */,
 				49D14FAB21B4F6F200B77C3F /* queue.cpp */,
 				49D14FAC21B4F6F200B77C3F /* queue.hpp */,
-				49E3761E21B3E69700F67280 /* graph.cpp */,
-				49E3761F21B3E69700F67280 /* graph.hpp */,
 				49882EA321A4431400BFE27D /* fstream.cpp */,
 				49DB168021A7D49B005A4CBF /* fstram.h */,
 				4944996E21B0C14200E3114C /* vector.cpp */,
