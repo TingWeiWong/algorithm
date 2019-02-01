@@ -39,3 +39,9 @@ bool containsValue(TreeNode* node, int value){
     return false;
 }
 
+int getMin(TreeNode* node){
+    if ((node -> left = nullptr)){
+        return node -> data;
+    }
+    return getMin(node -> left);
+}
