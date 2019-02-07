@@ -19,6 +19,7 @@ struct vertex {
     vertex(string s) : name(s) {}
 };
 
+
 class graph
 {
 public:
