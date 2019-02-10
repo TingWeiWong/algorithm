@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+virtual
+
 #endif /* inheritance_hpp */
