@@ -7,3 +7,11 @@
 //
 
 #include "inheritance.hpp"
+
+double Lawyer::salary() const{
+    return 2 * Employee::salary();
+}
+
+double Employee::salary() const{
+    return Employee::salary();
+}

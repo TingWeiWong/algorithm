@@ -8,9 +8,21 @@
 
 #ifndef inheritance_hpp
 #define inheritance_hpp
-
+#include <iostream>
 #include <stdio.h>
+using namespace std;
+class Employee{
+public:
+    Employee(string name, int years);
+    int hours() const;
+    int vacationdays() const;
+    virtual double salary() const;
+    string name() const;
+    string vacationform() const;
+    int years() const;
+};
 
-virtual
-
+class Lawyer : public Employee{
+    virtual double salary() const;
+};
 #endif /* inheritance_hpp */
