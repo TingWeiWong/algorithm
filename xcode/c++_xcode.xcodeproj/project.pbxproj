@@ -24,6 +24,7 @@
 		49E5C41F21B8BD24005D2B20 /* exhaustive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49E5C41D21B8BD24005D2B20 /* exhaustive.cpp */; };
 		7130C93B21FD61BB008835CF /* array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7130C93921FD61BB008835CF /* array.cpp */; };
 		71429EFF21EB67BE00E06BE1 /* class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71429EFD21EB67BE00E06BE1 /* class.cpp */; };
+		7166F66322108A8500076623 /* inheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7166F66122108A8500076623 /* inheritance.cpp */; };
 		71F8F0AA21D66F0000E4DA0D /* string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0A821D66F0000E4DA0D /* string.cpp */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,8 @@
 		7130C93A21FD61BB008835CF /* array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = array.hpp; sourceTree = "<group>"; };
 		71429EFD21EB67BE00E06BE1 /* class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = class.cpp; sourceTree = "<group>"; };
 		71429EFE21EB67BE00E06BE1 /* class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = class.hpp; sourceTree = "<group>"; };
+		7166F66122108A8500076623 /* inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inheritance.cpp; sourceTree = "<group>"; };
+		7166F66222108A8500076623 /* inheritance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = inheritance.hpp; sourceTree = "<group>"; };
 		71F8F0A821D66F0000E4DA0D /* string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = string.cpp; sourceTree = "<group>"; };
 		71F8F0A921D66F0000E4DA0D /* string.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = string.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				49CC5405218C48A300BD06BD /* main.cpp */,
+				7166F66122108A8500076623 /* inheritance.cpp */,
+				7166F66222108A8500076623 /* inheritance.hpp */,
 				49E3761E21B3E69700F67280 /* graph.cpp */,
 				49E3761F21B3E69700F67280 /* graph.hpp */,
 				4913CC4322001DA90071AD06 /* binary.cpp */,
@@ -219,6 +224,7 @@
 				49996A2921B7C99B00714629 /* map.cpp in Sources */,
 				493F4AB821BA136000FD514E /* backtracking.cpp in Sources */,
 				49D14FAD21B4F6F200B77C3F /* queue.cpp in Sources */,
+				7166F66322108A8500076623 /* inheritance.cpp in Sources */,
 				49E5C41F21B8BD24005D2B20 /* exhaustive.cpp in Sources */,
 				71F8F0AA21D66F0000E4DA0D /* string.cpp in Sources */,
 			);
