@@ -24,7 +24,7 @@ public:
 
 class Lawyer : public Employee{
 public:
-    Lawyer(string name, int years, string lawSchool);
+    Lawyer(string name, int years, string lawSchool); 
     virtual double salary() const;
 };
 #endif /* inheritance_hpp */
