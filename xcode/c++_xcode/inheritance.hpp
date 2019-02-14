@@ -20,6 +20,7 @@ public:
     string name() const;
     string vacationform() const;
     int years() const;
+    virtual void work() = 0;
 private:
     string myName;
     int myYears ;
