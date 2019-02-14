@@ -34,4 +34,13 @@ public:
 private:
     string myLawSchool;
 };
+
+class Shape{
+    virtual double area() = 0;
+    virtual double perimeter() = 0;
+};
+
+class Rectangle : public Shape{
+    
+};
 #endif /* inheritance_hpp */
