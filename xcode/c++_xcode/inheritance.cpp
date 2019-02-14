@@ -15,3 +15,14 @@ double Lawyer::salary() const{
 double Employee::salary() const{
     return Employee::salary();
 }
+
+Employee::Employee(string name, int years){
+    myName = name;
+    myYears = years;
+};
+
+Lawyer::Lawyer(string name, int years, string lawSchool)
+    :Employee(name,years)
+{
+        myLawSchool = lawSchool;
+};

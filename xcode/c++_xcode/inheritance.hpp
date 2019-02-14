@@ -20,6 +20,9 @@ public:
     string name() const;
     string vacationform() const;
     int years() const;
+private:
+    string myName;
+    int myYears ;
 };
 
 class Lawyer : public Employee{
@@ -27,5 +30,7 @@ public:
     Lawyer(string name, int years, string lawSchool);
     int hours() const;
     virtual double salary() const;
+private:
+    string myLawSchool;
 };
 #endif /* inheritance_hpp */
