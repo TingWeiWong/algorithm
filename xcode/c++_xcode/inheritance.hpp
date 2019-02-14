@@ -25,6 +25,7 @@ public:
 class Lawyer : public Employee{
 public:
     Lawyer(string name, int years, string lawSchool);
+    int hours() const;
     virtual double salary() const;
 };
 #endif /* inheritance_hpp */
