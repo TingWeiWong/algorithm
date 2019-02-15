@@ -24,6 +24,6 @@ bool isSorted(vector<int>& v){
 
 void bogoSort(vector<int>& v){
     while (!isSorted(v)){
-//        shuffle(v);
+        random_shuffle(v.begin(), v.end());
     }
 }
