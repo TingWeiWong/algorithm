@@ -6,7 +6,6 @@
 //  Copyright © 2018 Andrew . All rights reserved.
 //
 
-#include "exhaustive.hpp"
 #include <iostream>
 #include <string>
 using namespace std;
