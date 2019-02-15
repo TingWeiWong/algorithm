@@ -8,5 +8,22 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <vector>
 using namespace std;
 
+
+
+bool isSorted(vector<int>& v){
+    for (int i = 0; i < v.size() - 1; i++){
+        if (v[i] > v[i+1]){
+            return false;
+        }
+    }
+    return true;
+}
+
+void bogoSort(vector<int>& v){
+    while (!isSorted(v)){
+//        shuffle(v);
+    }
+}
