@@ -56,3 +56,12 @@ void insertionSort(vector<int>& v){
     }
 }
 
+void mergeSort(vector<int>& v){
+    vector<int> left (v.begin(),v.begin() + v.size()/2);
+    vector<int> right (v.size()/2, v.size() - left.size());
+    
+}
+
+void splitHalf(vector<int>& v){
+    
+}
