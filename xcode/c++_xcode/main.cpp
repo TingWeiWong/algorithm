@@ -54,6 +54,7 @@ int main() {
     void insertionSort(vector<int>& v);
     void bogoSort(vector<int>& v);
     void selectionSort(vector<int>& v);
+    void splitHalf(vector<int>& v);
 //    queue<string> queue;
 //    queue.push("s");
 //    queue.push("a");
@@ -99,9 +100,10 @@ int main() {
 //    root -> left = new TreeNode(6,nullptr,nullptr);
 //    printBinaryTree(root);
 //    cout << "Size of Binary Tree = " << sizeBinaryTree(root) << endl;
-    vector<int> unsorted = {19,12,51,16,2,58};
+    vector<int> unsorted = {5,4,3,2,1};
     insertionSort(unsorted);
-    for (auto i = unsorted.begin(); i != unsorted.end(); ++i){
-        cout << *i << "th element = " << *i << endl ;
-    }
+//    for (auto i = unsorted.begin(); i != unsorted.end(); ++i){
+//        cout << *i << "th element = " << *i << endl ;
+//    }
+    splitHalf(unsorted);
 }

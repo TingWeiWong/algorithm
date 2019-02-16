@@ -58,10 +58,17 @@ void insertionSort(vector<int>& v){
 
 void mergeSort(vector<int>& v){
     vector<int> left (v.begin(),v.begin() + v.size()/2);
-    vector<int> right (v.size()/2, v.size() - left.size());
+    vector<int> right (v.begin() + v.size()/2, v.end());
     
 }
 
 void splitHalf(vector<int>& v){
-    
+    vector<int> left (v.begin(),v.begin() + v.size()/2);
+    vector<int> right (v.begin() + v.size()/2, v.end());
+    for (auto i = left.begin(); i != left.end(); ++i){
+        cout << *i << "th element of left = " << *i << endl ;
+    }
+    for (auto j = right.begin(); j != right.end(); ++j){
+        cout << *j << "th element of right = " << *j << endl ;
+    }
 }
