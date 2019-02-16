@@ -43,3 +43,7 @@ void selectionSort(vector<int>& v){
         }
     }
 }
+
+void insertionSort(vector<int>& v){
+    
+}

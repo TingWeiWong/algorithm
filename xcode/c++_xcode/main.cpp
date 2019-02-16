@@ -51,6 +51,9 @@ int main() {
     void fourNode();
     void printBinaryTree(TreeNode* node);
     int sizeBinaryTree(TreeNode* node);
+    void insertionSort(vector<int>& v);
+    void bogoSort(vector<int>& v);
+    void selectionSort(vector<int>& v);
 //    queue<string> queue;
 //    queue.push("s");
 //    queue.push("a");
@@ -87,14 +90,18 @@ int main() {
 //    cout << "Mean = " << getMean(testcase) << endl;
 //    cout << "Median = " << getMedian(testcase) << endl;
 //    cout << "Mode = " << getMode(testcase) << endl;
-    int x = 42;
-    int* p = &x;
-    cout << "Address of P = " << p << endl;
-    cout << "Value of P = " << *p << endl;
-    fourNode();
-    TreeNode* root = new TreeNode(9,nullptr,nullptr);
-    root -> left = new TreeNode(6,nullptr,nullptr);
-    printBinaryTree(root);
-    cout << "Size of Binary Tree = " << sizeBinaryTree(root) << endl;
-    
+//    int x = 42;
+//    int* p = &x;
+//    cout << "Address of P = " << p << endl;
+//    cout << "Value of P = " << *p << endl;
+//    fourNode();
+//    TreeNode* root = new TreeNode(9,nullptr,nullptr);
+//    root -> left = new TreeNode(6,nullptr,nullptr);
+//    printBinaryTree(root);
+//    cout << "Size of Binary Tree = " << sizeBinaryTree(root) << endl;
+    vector<int> unsorted = {4,3,2,1};
+    bogoSort(unsorted);
+    for (auto i = unsorted.begin(); i != unsorted.end(); ++i){
+        cout << *i << "th element = " << *i << endl ;
+    }
 }
