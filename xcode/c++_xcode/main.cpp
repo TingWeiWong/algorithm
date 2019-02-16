@@ -99,8 +99,8 @@ int main() {
 //    root -> left = new TreeNode(6,nullptr,nullptr);
 //    printBinaryTree(root);
 //    cout << "Size of Binary Tree = " << sizeBinaryTree(root) << endl;
-    vector<int> unsorted = {4,3,2,1};
-    bogoSort(unsorted);
+    vector<int> unsorted = {19,12,51,16,2,58};
+    insertionSort(unsorted);
     for (auto i = unsorted.begin(); i != unsorted.end(); ++i){
         cout << *i << "th element = " << *i << endl ;
     }
