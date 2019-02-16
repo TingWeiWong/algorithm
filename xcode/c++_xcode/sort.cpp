@@ -45,5 +45,13 @@ void selectionSort(vector<int>& v){
 }
 
 void insertionSort(vector<int>& v){
-    
+    for (int i = 1; i < v.size(); i++){
+        int temp = v[i];
+        int j = i;
+        while (j >= 1 && v[j-1] > temp) {
+            v[j] = v[j-1];
+            j--;
+        }
+        v[j] = temp;
+    }
 }
