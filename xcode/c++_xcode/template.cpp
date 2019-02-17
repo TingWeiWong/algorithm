@@ -7,3 +7,11 @@
 //
 
 #include "template.hpp"
+#include <iostream>
+using namespace std;
+
+template <typename T>
+T maxtemplate(T a, T b){
+    if (a < b){ return b; }
+    else{ return a; };
+}
