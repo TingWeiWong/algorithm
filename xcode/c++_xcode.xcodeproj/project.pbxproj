@@ -26,6 +26,7 @@
 		71429EFF21EB67BE00E06BE1 /* class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71429EFD21EB67BE00E06BE1 /* class.cpp */; };
 		7160F90222170E9B00C6392A /* sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7160F90122170E9B00C6392A /* sort.cpp */; };
 		7166F66322108A8500076623 /* inheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7166F66122108A8500076623 /* inheritance.cpp */; };
+		71A6138B2219186F0001B261 /* template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71A613892219186F0001B261 /* template.cpp */; };
 		71F8F0AA21D66F0000E4DA0D /* string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0A821D66F0000E4DA0D /* string.cpp */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,8 @@
 		7160F90122170E9B00C6392A /* sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sort.cpp; sourceTree = "<group>"; };
 		7166F66122108A8500076623 /* inheritance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inheritance.cpp; sourceTree = "<group>"; };
 		7166F66222108A8500076623 /* inheritance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = inheritance.hpp; sourceTree = "<group>"; };
+		71A613892219186F0001B261 /* template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = template.cpp; sourceTree = "<group>"; };
+		71A6138A2219186F0001B261 /* template.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = template.hpp; sourceTree = "<group>"; };
 		71F8F0A821D66F0000E4DA0D /* string.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = string.cpp; sourceTree = "<group>"; };
 		71F8F0A921D66F0000E4DA0D /* string.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = string.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				49CC5405218C48A300BD06BD /* main.cpp */,
+				71A613892219186F0001B261 /* template.cpp */,
+				71A6138A2219186F0001B261 /* template.hpp */,
 				7160F90122170E9B00C6392A /* sort.cpp */,
 				7166F66122108A8500076623 /* inheritance.cpp */,
 				7166F66222108A8500076623 /* inheritance.hpp */,
@@ -214,6 +219,7 @@
 				4932E77F21F2F52D00AA85FF /* linkedList.cpp in Sources */,
 				49E3762021B3E69700F67280 /* graph.cpp in Sources */,
 				4913CC4522001DA90071AD06 /* binary.cpp in Sources */,
+				71A6138B2219186F0001B261 /* template.cpp in Sources */,
 				7130C93B21FD61BB008835CF /* array.cpp in Sources */,
 				490D057621AB97F200E58921 /* recursions.cpp in Sources */,
 				496CE86921AD2C7A005A9F41 /* dynamic.cpp in Sources */,
