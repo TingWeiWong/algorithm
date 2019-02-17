@@ -10,5 +10,8 @@
 #define template_hpp
 
 #include <stdio.h>
-
+class ArrayIntList{
+public:
+    
+};
 #endif /* template_hpp */
