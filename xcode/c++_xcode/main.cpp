@@ -56,6 +56,8 @@ int main() {
     void selectionSort(vector<int>& v);
     void splitHalf(vector<int>& v);
     void mergeSort(vector<int>& v);
+    void loopElements(vector<int>& v);
+    void shortLoop(vector<int>& v);
 //    queue<string> queue;
 //    queue.push("s");
 //    queue.push("a");
@@ -106,5 +108,7 @@ int main() {
     for (auto i = unsorted.begin(); i != unsorted.end(); ++i){
         cout << *i << "th element = " << *i << endl ;
     }
+    loopElements(unsorted);
+    shortLoop(unsorted);
 //    splitHalf(unsorted);
 }
