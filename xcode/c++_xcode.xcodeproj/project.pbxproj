@@ -17,6 +17,7 @@
 		49882EA421A4431400BFE27D /* fstream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49882EA321A4431400BFE27D /* fstream.cpp */; };
 		49996A2921B7C99B00714629 /* map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49996A2721B7C99B00714629 /* map.cpp */; };
 		49AD617B21B7656000D7E4F8 /* set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49AD617921B7656000D7E4F8 /* set.cpp */; };
+		49B0D365221AF96600198127 /* STL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49B0D363221AF96600198127 /* STL.cpp */; };
 		49C22B0321B4D25A00612BA3 /* stacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49C22B0121B4D25A00612BA3 /* stacks.cpp */; };
 		49CC5406218C48A300BD06BD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49CC5405218C48A300BD06BD /* main.cpp */; };
 		49D14FAD21B4F6F200B77C3F /* queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49D14FAB21B4F6F200B77C3F /* queue.cpp */; };
@@ -62,6 +63,8 @@
 		49996A2821B7C99B00714629 /* map.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = map.hpp; sourceTree = "<group>"; };
 		49AD617921B7656000D7E4F8 /* set.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = set.cpp; sourceTree = "<group>"; };
 		49AD617A21B7656000D7E4F8 /* set.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = set.hpp; sourceTree = "<group>"; };
+		49B0D363221AF96600198127 /* STL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STL.cpp; sourceTree = "<group>"; };
+		49B0D364221AF96600198127 /* STL.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = STL.hpp; sourceTree = "<group>"; };
 		49C22B0121B4D25A00612BA3 /* stacks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stacks.cpp; sourceTree = "<group>"; };
 		49C22B0221B4D25A00612BA3 /* stacks.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stacks.hpp; sourceTree = "<group>"; };
 		49CC5402218C48A300BD06BD /* c++_xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "c++_xcode"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				49CC5405218C48A300BD06BD /* main.cpp */,
+				49B0D363221AF96600198127 /* STL.cpp */,
+				49B0D364221AF96600198127 /* STL.hpp */,
 				71A613892219186F0001B261 /* template.cpp */,
 				71A6138A2219186F0001B261 /* template.hpp */,
 				7160F90122170E9B00C6392A /* sort.cpp */,
@@ -235,6 +240,7 @@
 				7166F66322108A8500076623 /* inheritance.cpp in Sources */,
 				49E5C41F21B8BD24005D2B20 /* exhaustive.cpp in Sources */,
 				71F8F0AA21D66F0000E4DA0D /* string.cpp in Sources */,
+				49B0D365221AF96600198127 /* STL.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
