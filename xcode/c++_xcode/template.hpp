@@ -10,8 +10,13 @@
 #define template_hpp
 
 #include <stdio.h>
-class ArrayIntList{
+template <typename T> class ArrayList{
 public:
-    
+    ArrayList();
+    ~ArrayList();
+    int size() const;
+    T get(int Index) const;
+private:
+    T* elements;
 };
 #endif /* template_hpp */
