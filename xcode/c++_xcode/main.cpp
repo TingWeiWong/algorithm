@@ -58,6 +58,7 @@ int main() {
     void mergeSort(vector<int>& v);
     void loopElements(vector<int>& v);
     void shortLoop(vector<int>& v);
+    vector<int> factorization(int n);
 //    queue<string> queue;
 //    queue.push("s");
 //    queue.push("a");
@@ -74,6 +75,7 @@ int main() {
     cout << "Test = " << test << endl;
     cout << "LCS dynamic = " << lcs_dynamic("abcs", "iasc") << endl;
     cout << "LIS dynamic = " << lis_dynamic({1,2,3,4,1,2,5,1,2,4}) << endl;
+    factorization(12);
 //    cout << "Sum of Array = " << simpleArraySum({1,2,3,4,5,6}) << endl;
 //    cout << "Discrete 1 = "  << disc1(3) << endl;
 //    cout << "Discrete 2 = "  << disc2(3) << endl;
@@ -103,12 +105,12 @@ int main() {
 //    root -> left = new TreeNode(6,nullptr,nullptr);
 //    printBinaryTree(root);
 //    cout << "Size of Binary Tree = " << sizeBinaryTree(root) << endl;
-    vector<int> unsorted = {5,4,3,2,1};
-    mergeSort(unsorted);
-    for (auto i = unsorted.begin(); i != unsorted.end(); ++i){
-        cout << *i << "th element = " << *i << endl ;
-    }
-    loopElements(unsorted);
-    shortLoop(unsorted);
+//    vector<int> unsorted = {5,4,3,2,1};
+//    mergeSort(unsorted);
+//    for (auto i = unsorted.begin(); i != unsorted.end(); ++i){
+//        cout << *i << "th element = " << *i << endl ;
+//    }
+//    loopElements(unsorted);
+//    shortLoop(unsorted);
 //    splitHalf(unsorted);
 }

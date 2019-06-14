@@ -157,3 +157,15 @@ void staircase_forloop(int n){
         cout << endl;
     }
 }
+
+void factorization(int n ){
+    vector<int> result ;
+    for (int i = 1; i <= n/2 ; i++){
+        if (n % i == 0){
+            result.push_back(i);
+        }
+    }
+    for (vector<int>::const_iterator i = result.begin(); i != result.end(); ++i){
+        cout << "Factor of " << n << " = " << *i << endl;
+    }
+}
