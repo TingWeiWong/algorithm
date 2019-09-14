@@ -44,38 +44,60 @@ void selectionSort(vector<int>& v){
     }
 }
 
+//void insertionSort(vector<int>& v){
+//    for (int i = 1; i < v.size(); i++){
+//        int temp = v[i];
+//        int j = i;
+//        while (j >= 1 && v[j-1] > temp) {
+//            v[j] = v[j-1];
+//            j--;
+//        }
+//        v[j] = temp;
+//    }
+//}
+
 void insertionSort(vector<int>& v){
     for (int i = 1; i < v.size(); i++){
-        int temp = v[i];
-        int j = i;
-        while (j >= 1 && v[j-1] > temp) {
+        int key = v[i];
+        int j = i ;
+        while (j >= 1 && key < v[j-1]) {
             v[j] = v[j-1];
-            j--;
+            j -= 1;
         }
-        v[j] = temp;
+        v[j] = key;
     }
+
 }
 
 void mergeSort(vector<int>& v){
     if (v.size() >= 2){
-        // Split into 2 parts
-        vector<int> left (v.begin(),v.begin() + v.size()/2);
+        vector<int> left (v.begin(), v.begin() + v.size()/2);
         vector<int> right (v.begin() + v.size()/2, v.end());
-        // Sort left and right
         mergeSort(left);
         mergeSort(right);
-        // Merge halves
-        int i1 = 0;
-        int i2 = 0;
-        for (int i = 0; i < v.size(); i++){
-            if (i2 >= right.size() || (i1 < left.size() && left[i1] < right[i2])){
-                v[i] = left[i1++];
-            }else{
-                v[i] = right[i2++];
-            }
-        }
     }
 }
+
+//void mergeSort(vector<int>& v){
+//    if (v.size() >= 2){
+//        // Split into 2 parts
+//        vector<int> left (v.begin(),v.begin() + v.size()/2);
+//        vector<int> right (v.begin() + v.size()/2, v.end());
+//        // Sort left and right
+//        mergeSort(left);
+//        mergeSort(right);
+//        // Merge halves
+//        int i1 = 0;
+//        int i2 = 0;
+//        for (int i = 0; i < v.size(); i++){
+//            if (i2 >= right.size() || (i1 < left.size() && left[i1] < right[i2])){
+//                v[i] = left[i1++];
+//            }else{
+//                v[i] = right[i2++];
+//            }
+//        }
+//    }
+//}
 
 void splitHalf(vector<int>& v){
     vector<int> left (v.begin(),v.begin() + v.size()/2);

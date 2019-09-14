@@ -59,6 +59,7 @@ int main() {
     void loopElements(vector<int>& v);
     void shortLoop(vector<int>& v);
     vector<int> factorization(int n);
+    bool isSorted(vector<int>& v);
 //    queue<string> queue;
 //    queue.push("s");
 //    queue.push("a");
@@ -79,6 +80,10 @@ int main() {
     
     vector<string> data = {"A","B","C"};
     cout << "data 0 = " << &data[0] << endl;
+    vector<int> unsort = {5,4,3,2,1};
+    insertionSort(unsort);
+//    mergeSort(unsort);
+    cout <<"Sorted = "<< isSorted(unsort) <<endl;
     
 //    cout << "Sum of Array = " << simpleArraySum({1,2,3,4,5,6}) << endl;
 //    cout << "Discrete 1 = "  << disc1(3) << endl;
